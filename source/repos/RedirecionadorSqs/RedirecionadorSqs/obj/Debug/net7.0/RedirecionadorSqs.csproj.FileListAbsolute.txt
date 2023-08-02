@@ -1,0 +1,17 @@
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.csproj.AssemblyReference.cache
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.AssemblyInfoInputs.cache
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.AssemblyInfo.cs
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.csproj.CoreCompileInputs.cache
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\RedirecionadorSqs.exe
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\RedirecionadorSqs.deps.json
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\RedirecionadorSqs.runtimeconfig.json
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\RedirecionadorSqs.dll
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\RedirecionadorSqs.pdb
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.csproj.CopyComplete
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.dll
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\refint\RedirecionadorSqs.dll
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.pdb
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.genruntimeconfig.cache
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\ref\RedirecionadorSqs.dll

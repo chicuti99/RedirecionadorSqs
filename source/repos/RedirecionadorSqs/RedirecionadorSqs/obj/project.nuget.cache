@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J/UK7wJILucS0qYBzzelmN71xsKY5xHdV12ox9YTR5WitULmEgs/kFYGGzzp+jnvjeelOZ9c7ThWWJlltyXaIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arthur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

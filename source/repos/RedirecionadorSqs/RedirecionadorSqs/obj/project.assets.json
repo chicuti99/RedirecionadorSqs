@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
+      "projectUniqueName": "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
       "projectName": "RedirecionadorSqs",
-      "projectPath": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
+      "projectPath": "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
       "packagesPath": "C:\\Users\\arthur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\obj\\",
+      "outputPath": "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arthur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,7 +114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

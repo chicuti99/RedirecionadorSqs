@@ -18,7 +18,17 @@ namespace Login
             //string senha = Console.ReadLine();
 
             var garcom = new GarcomDigital();
-            garcom.Login("foodies@foodies.com","123456");
+            garcom.Login("foodies@foodies.com", "123456");
+            List<Printer> printers = garcom.GetAvaliablePrinters();
+            do
+            {
+                foreach (var printer in printers)
+                {
+                    Console.WriteLine(garcom.GetOrdersForPrinterSqs(printer.id) + "\n");
+
+                }
+                Thread.Sleep(1000);
+            } while (true);
             Console.ReadKey();
 
         }

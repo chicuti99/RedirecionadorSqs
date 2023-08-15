@@ -1,0 +1,308 @@
+2023-07-07 17:04:06,123 DEBUG: com.xilinx.installer.api.e:? - Log file location: C:\Users\arthur\.Xilinx\xinstall\xinstall_1688760204865.log
+2023-07-07 17:04:06,655 DEBUG: com.xilinx.installer.api.e:? - Memory usage -- Used memory: 6973 MB. Total memory: 8073 MB
+Recent cpu usage for system: 100%
+2023-07-07 17:04:06,879 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2023-07-07 17:04:06,884 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2023-07-07 17:04:06,890 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2023-07-07 17:04:06,892 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2023-07-07 17:04:06,894 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2023-07-07 17:04:07,154 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.summary.UninstallerSummaryPanel, refKey: UninstallSummaryPanel
+2023-07-07 17:04:07,216 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.progress.UninstallProgressPanel, refKey: UninstallProgressPanel
+2023-07-07 17:04:13,731 DEBUG: o.j:? - Initiating uninstallation process.
+2023-07-07 17:04:13,754 DEBUG: o.j:? - Found C:\Xilinx\.xinstall\Vivado_2017.4. Not deleting C:\Xilinx\.xinstall
+2023-07-07 17:04:13,827 DEBUG: o.j:? - Delete shortcuts...
+2023-07-07 17:04:13,831 DEBUG: m.c:? - Deleted shortcut: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav\Uninstall DocNav.lnk
+2023-07-07 17:04:13,832 DEBUG: m.c:? - Unable to remove shortcut: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav
+2023-07-07 17:04:13,832 DEBUG: m.c:? - Deleted shortcut: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav\DocNav.lnk
+2023-07-07 17:04:13,832 DEBUG: m.c:? - Deleted shortcut: C:\Users\arthur\Desktop\DocNav.lnk
+2023-07-07 17:04:13,836 DEBUG: m.c:? - Deleted shortcut: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav
+2023-07-07 17:04:13,844 DEBUG: com.xilinx.installer.utils.n:? - r:/scratch/builds/HEAD/continuous/2017_07_12_1930218/src/products/installer/cxx-src/common/RegistryManager.cxx:648 - Deleted Uninstall registry entry successfully: Xilinx_DocNav_2017.4#0
+2023-07-07 17:04:13,844 DEBUG: o.k:? - Cleaning up registry entries
+2023-07-07 17:04:13,844 DEBUG: l.c:? - Deleting REG ENTRIES associated with modules...
+2023-07-07 17:04:13,845 DEBUG: o.j:? - Cleaning up registry entries - SUCCESS
+2023-07-07 17:04:13,845 DEBUG: o.p:? - Removing files...
+2023-07-07 17:04:13,845 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\hubs\sw_manuals
+2023-07-07 17:04:14,050 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\hubs\mig
+2023-07-07 17:04:14,083 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\hubs\fpgas
+2023-07-07 17:04:14,096 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\hubs\embedded
+2023-07-07 17:04:14,175 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\hubs\boards_and_kits
+2023-07-07 17:04:14,427 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\hubs
+2023-07-07 17:04:14,427 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\docTrayIcons
+2023-07-07 17:04:14,491 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\checklists
+2023-07-07 17:04:14,493 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources\assets
+2023-07-07 17:04:14,530 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\resources
+2023-07-07 17:04:14,539 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav\imageformats
+2023-07-07 17:04:14,545 DEBUG: o.p:? - Deleting directory C:\Xilinx\DocNav
+2023-07-07 17:04:14,551 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\tps\win64\jre
+2023-07-07 17:04:14,555 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2023-07-07 17:04:14,556 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:04:14,559 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:04:14,564 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2023-07-07 17:04:14,564 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2023-07-07 17:04:14,573 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:04:14,576 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2023-07-07 17:04:14,577 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:04:14,578 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2023-07-07 17:04:14,578 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2023-07-07 17:04:14,585 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:04:14,586 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server
+2023-07-07 17:04:14,587 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:04:14,589 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:04:14,591 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2023-07-07 17:04:14,593 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2023-07-07 17:04:14,594 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin
+2023-07-07 17:04:14,596 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,607 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,607 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,608 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,609 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,609 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,609 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,610 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext
+2023-07-07 17:04:14,617 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,619 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,623 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,624 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,627 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib
+2023-07-07 17:04:14,627 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre. C:\Xilinx\.xinstall\DocNav\tps\win64\jre
+2023-07-07 17:04:14,628 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\tps\win64
+2023-07-07 17:04:14,645 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2023-07-07 17:04:14,645 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2023-07-07 17:04:14,646 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2023-07-07 17:04:14,651 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin
+2023-07-07 17:04:14,651 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,651 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,651 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,653 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,654 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,655 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,655 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,655 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext
+2023-07-07 17:04:14,655 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,656 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,656 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,656 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,657 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib
+2023-07-07 17:04:14,657 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre. C:\Xilinx\.xinstall\DocNav\tps\win64\jre
+2023-07-07 17:04:14,659 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64. C:\Xilinx\.xinstall\DocNav\tps\win64
+2023-07-07 17:04:14,659 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\tps
+2023-07-07 17:04:14,660 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2023-07-07 17:04:14,661 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:04:14,662 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:04:14,662 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2023-07-07 17:04:14,663 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2023-07-07 17:04:14,663 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:04:14,664 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2023-07-07 17:04:14,664 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:04:14,664 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2023-07-07 17:04:14,664 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2023-07-07 17:04:14,664 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:04:14,664 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server
+2023-07-07 17:04:14,664 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:04:14,667 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:04:14,667 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2023-07-07 17:04:14,667 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2023-07-07 17:04:14,668 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin
+2023-07-07 17:04:14,669 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,669 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,670 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,670 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,671 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,671 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,671 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,673 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext
+2023-07-07 17:04:14,673 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,674 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,674 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,674 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,675 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib
+2023-07-07 17:04:14,675 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre. C:\Xilinx\.xinstall\DocNav\tps\win64\jre
+2023-07-07 17:04:14,675 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64. C:\Xilinx\.xinstall\DocNav\tps\win64
+2023-07-07 17:04:14,676 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps. C:\Xilinx\.xinstall\DocNav\tps
+2023-07-07 17:04:14,676 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\scripts
+2023-07-07 17:04:14,678 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\lib\win64.o
+2023-07-07 17:04:14,694 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll
+2023-07-07 17:04:14,696 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_regex.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_regex.dll
+2023-07-07 17:04:14,698 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_system.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_system.dll
+2023-07-07 17:04:14,699 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_7z.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_7z.dll
+2023-07-07 17:04:14,699 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll
+2023-07-07 17:04:14,699 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\librdi_install.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\librdi_install.dll
+2023-07-07 17:04:14,704 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o. C:\Xilinx\.xinstall\DocNav\lib\win64.o
+2023-07-07 17:04:14,704 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\lib\classes
+2023-07-07 17:04:14,705 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,705 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,707 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,708 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,708 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,708 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,709 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,709 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\xinstaller.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\xinstaller.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,709 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,709 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes. C:\Xilinx\.xinstall\DocNav\lib\classes
+2023-07-07 17:04:14,709 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\lib
+2023-07-07 17:04:14,711 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,713 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,713 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\xinstaller.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\xinstaller.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes. C:\Xilinx\.xinstall\DocNav\lib\classes
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_regex.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_regex.dll
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_system.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_system.dll
+2023-07-07 17:04:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_7z.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_7z.dll
+2023-07-07 17:04:14,720 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll
+2023-07-07 17:04:14,721 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\librdi_install.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\librdi_install.dll
+2023-07-07 17:04:14,721 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o. C:\Xilinx\.xinstall\DocNav\lib\win64.o
+2023-07-07 17:04:14,722 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib. C:\Xilinx\.xinstall\DocNav\lib
+2023-07-07 17:04:14,722 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\data\images
+2023-07-07 17:04:14,737 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\data
+2023-07-07 17:04:14,769 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\bin\unwrapped\win64.o
+2023-07-07 17:04:14,793 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\bin\unwrapped
+2023-07-07 17:04:14,794 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav\bin
+2023-07-07 17:04:14,829 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\bin. C:\Xilinx\.xinstall\DocNav\bin: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,830 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\DocNav
+2023-07-07 17:04:14,888 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\bin. C:\Xilinx\.xinstall\DocNav\bin: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,890 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,891 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,893 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,893 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,894 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,895 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,896 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,896 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\xinstaller.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\xinstaller.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,897 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar. C:\Xilinx\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,898 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\classes. C:\Xilinx\.xinstall\DocNav\lib\classes
+2023-07-07 17:04:14,899 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll
+2023-07-07 17:04:14,899 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_regex.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_regex.dll
+2023-07-07 17:04:14,900 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_system.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libboost_system.dll
+2023-07-07 17:04:14,901 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_7z.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_7z.dll
+2023-07-07 17:04:14,903 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll
+2023-07-07 17:04:14,904 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o\librdi_install.dll. C:\Xilinx\.xinstall\DocNav\lib\win64.o\librdi_install.dll
+2023-07-07 17:04:14,904 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib\win64.o. C:\Xilinx\.xinstall\DocNav\lib\win64.o
+2023-07-07 17:04:14,905 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\lib. C:\Xilinx\.xinstall\DocNav\lib
+2023-07-07 17:04:14,906 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2023-07-07 17:04:14,907 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:04:14,907 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:04:14,907 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2023-07-07 17:04:14,908 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2023-07-07 17:04:14,908 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:04:14,909 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2023-07-07 17:04:14,910 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:04:14,910 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2023-07-07 17:04:14,911 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2023-07-07 17:04:14,911 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:04:14,912 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\server
+2023-07-07 17:04:14,913 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:04:14,914 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:04:14,915 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2023-07-07 17:04:14,915 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2023-07-07 17:04:14,916 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\bin
+2023-07-07 17:04:14,916 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,918 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,919 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,919 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,920 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,920 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,921 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,922 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\ext
+2023-07-07 17:04:14,922 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,923 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,924 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,924 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:04:14,926 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib. C:\Xilinx\.xinstall\DocNav\tps\win64\jre\lib
+2023-07-07 17:04:14,926 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64\jre. C:\Xilinx\.xinstall\DocNav\tps\win64\jre
+2023-07-07 17:04:14,926 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps\win64. C:\Xilinx\.xinstall\DocNav\tps\win64
+2023-07-07 17:04:14,926 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav\tps. C:\Xilinx\.xinstall\DocNav\tps
+2023-07-07 17:04:14,926 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\DocNav. C:\Xilinx\.xinstall\DocNav
+2023-07-07 17:04:14,929 DEBUG: o.j:? - Found C:\Xilinx\.xinstall\Vivado_2017.4. Not deleting C:\Xilinx\.xinstall
+2023-07-07 17:04:14,932 DEBUG: com.xilinx.installer.utils.FileUtilities:? - Cleanup cmd: C:\Xilinx\.xinstall\DocNav\bin\\..\bin\_xInstallerCleanup.exe C:\Users\arthur\AppData\Local\Temp\.xinstall_remove_file.bat

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Amazon.Lambda.TestTool-3.1</id>
+    <version>0.12.7</version>
+    <authors>Amazon Web Services</authors>
+    <licenseUrl>http://aws.amazon.com/apache2.0/</licenseUrl>
+    <projectUrl>https://github.com/aws/aws-lambda-dotnet</projectUrl>
+    <iconUrl>https://sdk-for-net.amazonwebservices.com/images/AWSLogo128x128.png</iconUrl>
+    <description>A tool to help debug and test your .NET Core 3.1 AWS Lambda functions locally.</description>
+    <copyright>Apache 2</copyright>
+    <tags>AWS Amazon Lambda</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/wwwroot/css/blazored-modal.css" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/bootstrap/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/bootstrap/bootstrap.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/font-awesome.min.css" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/FONT-LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/ICON-LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/open-iconic/README.md" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/css/site.css" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/favicon.ico" buildAction="Content" />
+      <files include="any/netcoreapp3.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>

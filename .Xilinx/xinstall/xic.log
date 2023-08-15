@@ -1,0 +1,873 @@
+2023-05-21 19:57:00,530 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-05-21 19:57:00,748 DEBUG:?:? - Starting to listen
+2023-05-21 19:57:00,957 DEBUG:?:? - Could not auto detect proxy settings
+2023-05-21 19:57:00,962 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-05-21 19:57:00,970 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-05-21 19:57:00,971 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1684709820958\installClientInfo.dat
+2023-05-21 19:57:00,971 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1684709820958\installClientInfo.dat,  deleting and starting download from scratch.
+2023-05-21 19:57:00,984 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-05-21 19:57:01,174 DEBUG:?:? - Warning, could not find load notification history file: C:\Users\arthur\.Xilinx\registry\notifications.xml this can be first time xilinx SW installation.
+2023-05-21 19:57:01,841 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-05-21 19:57:01,842 INFO :?:? - Internet connection validated, can connect to internet.
+2023-05-21 19:57:01,844 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1684709820958\installClientInfo.dat
+2023-05-21 19:57:02,370 DEBUG:?:? - Fetching notifications..
+2023-05-21 19:57:02,389 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-05-21 19:57:02,391 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-05-21 19:57:02,652 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-05-21 19:57:02,653 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-05-21 19:57:03,148 DEBUG:?:? - Warning, coudl not load notification histroty file: C:\Users\arthur\.Xilinx\registry\notifications.xml
+2023-05-21 19:57:03,151 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-05-21 19:57:03,575 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-05-21 19:57:03,577 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-05-21 19:57:03,714 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use C:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigImagePath_setOrigImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2023-05-21 19:57:03,720 ERROR:?:? - There was an error executing: [cmd, /c, net use C:]
+2023-05-21 19:57:03,820 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-05-21 19:57:03,820 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-05-21 19:57:24,341 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-05-21 19:57:24,342 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-05-22 11:55:05,490 DEBUG:?:? - Fetching notifications..
+2023-05-22 11:55:06,530 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-05-22 11:55:06,718 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-05-22 11:55:06,719 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-05-22 12:55:06,730 DEBUG:?:? - Fetching notifications..
+2023-05-22 12:55:07,792 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-05-22 12:55:08,051 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-05-22 12:55:08,051 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-16 15:12:58,620 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-16 15:12:59,295 DEBUG:?:? - Starting to listen
+2023-06-16 15:12:59,770 DEBUG:?:? - Could not auto detect proxy settings
+2023-06-16 15:12:59,772 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-16 15:12:59,781 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-16 15:12:59,781 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1686939179771\installClientInfo.dat
+2023-06-16 15:12:59,782 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1686939179771\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-16 15:12:59,794 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-16 15:13:00,604 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-06-16 15:13:00,605 INFO :?:? - Internet connection validated, can connect to internet.
+2023-06-16 15:13:00,605 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1686939179771\installClientInfo.dat
+2023-06-16 15:13:00,784 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-16 15:13:00,785 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-16 15:13:01,738 DEBUG:?:? - Fetching notifications..
+2023-06-16 15:13:01,754 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-06-16 15:13:01,755 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-06-16 15:13:02,012 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-16 15:13:02,013 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-16 15:13:02,309 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-16 15:13:02,309 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-16 15:13:02,758 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-16 15:13:02,758 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-16 15:13:03,482 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-16 15:13:03,798 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-16 15:13:03,798 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-16 15:13:03,929 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use C:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigImagePath_setOrigImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2023-06-16 15:13:03,946 ERROR:?:? - There was an error executing: [cmd, /c, net use C:]
+2023-06-16 15:13:04,096 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-16 15:13:04,096 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-16 15:13:24,542 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-16 15:13:24,542 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 17:19:01,522 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-18 17:19:04,602 DEBUG:?:? - Starting to listen
+2023-06-18 17:19:05,155 DEBUG:?:? - Could not auto detect proxy settings
+2023-06-18 17:19:05,159 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-18 17:19:05,170 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-18 17:19:05,171 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1687119545156\installClientInfo.dat
+2023-06-18 17:19:05,171 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1687119545156\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-18 17:19:05,181 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-18 17:19:06,145 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 17:19:06,145 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 17:19:06,911 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-06-18 17:19:06,911 INFO :?:? - Internet connection validated, can connect to internet.
+2023-06-18 17:19:06,970 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1687119545156\installClientInfo.dat
+2023-06-18 17:19:07,181 DEBUG:?:? - Fetching notifications..
+2023-06-18 17:19:07,192 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-06-18 17:19:07,193 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-06-18 17:19:07,578 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 17:19:07,578 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 17:19:07,897 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 17:19:07,899 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 17:19:08,249 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 17:19:08,250 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 17:19:08,733 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-18 17:19:09,011 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 17:19:09,011 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 17:19:09,107 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use C:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigImagePath_setOrigImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2023-06-18 17:19:09,116 ERROR:?:? - There was an error executing: [cmd, /c, net use C:]
+2023-06-18 17:19:09,212 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 17:19:09,213 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 17:19:29,671 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 17:19:29,671 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-18 18:19:31,643 DEBUG:?:? - Fetching notifications..
+2023-06-18 18:19:32,669 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-18 18:19:33,059 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-18 18:19:33,059 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-19 11:59:09,123 DEBUG:?:? - Fetching notifications..
+2023-06-19 11:59:10,216 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-19 11:59:10,542 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-19 11:59:10,542 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-19 12:59:10,545 DEBUG:?:? - Fetching notifications..
+2023-06-19 12:59:11,603 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-19 12:59:11,815 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-19 12:59:11,816 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-19 13:59:11,826 DEBUG:?:? - Fetching notifications..
+2023-06-19 13:59:12,980 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-19 13:59:13,291 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-19 13:59:13,292 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-19 15:46:27,466 DEBUG:?:? - Fetching notifications..
+2023-06-19 15:46:28,516 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-19 15:46:28,831 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-19 15:46:28,832 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-19 16:46:28,861 DEBUG:?:? - Fetching notifications..
+2023-06-19 16:46:30,103 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-19 16:46:30,662 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-19 16:46:30,663 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-20 12:18:19,052 DEBUG:?:? - Fetching notifications..
+2023-06-20 12:18:20,207 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-20 12:18:20,689 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-20 12:18:20,691 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-20 13:18:20,701 DEBUG:?:? - Fetching notifications..
+2023-06-20 13:18:21,883 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-20 13:18:22,533 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-20 13:18:22,540 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-20 14:18:25,044 DEBUG:?:? - Fetching notifications..
+2023-06-20 14:18:26,353 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-20 14:18:26,851 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-20 14:18:26,851 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-20 16:09:59,634 DEBUG:?:? - Fetching notifications..
+2023-06-20 16:10:00,764 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-20 16:10:01,304 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-20 16:10:01,305 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-20 17:10:01,294 DEBUG:?:? - Fetching notifications..
+2023-06-20 17:10:02,383 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-20 17:10:02,759 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-20 17:10:02,761 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-21 10:08:49,343 DEBUG:?:? - Fetching notifications..
+2023-06-21 10:08:50,533 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-21 10:08:51,209 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-21 10:08:51,209 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-21 11:08:51,189 DEBUG:?:? - Fetching notifications..
+2023-06-21 11:08:52,277 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-21 11:08:52,796 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-21 11:08:52,797 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-21 12:08:52,806 DEBUG:?:? - Fetching notifications..
+2023-06-21 12:08:53,951 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-21 12:08:54,884 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-21 12:08:54,884 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-21 13:08:54,884 DEBUG:?:? - Fetching notifications..
+2023-06-21 13:08:56,809 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-21 13:08:59,700 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-21 13:08:59,701 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-21 14:56:40,881 DEBUG:?:? - Fetching notifications..
+2023-06-21 14:56:46,975 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-21 14:56:52,961 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-21 14:56:52,961 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-21 22:01:07,884 DEBUG:?:? - Fetching notifications..
+2023-06-21 22:01:08,997 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-21 22:01:10,118 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-21 22:01:10,119 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-22 11:29:21,371 DEBUG:?:? - Fetching notifications..
+2023-06-22 11:29:22,550 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-22 11:29:23,391 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-22 11:29:23,392 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-22 13:12:49,741 DEBUG:?:? - Fetching notifications..
+2023-06-22 13:12:50,820 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-22 13:12:51,253 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-22 13:12:51,255 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:39,239 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-23 14:55:39,727 DEBUG:?:? - Starting to listen
+2023-06-23 14:55:39,967 DEBUG:?:? - Could not auto detect proxy settings
+2023-06-23 14:55:39,975 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-23 14:55:39,983 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-23 14:55:39,983 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1687542939967\installClientInfo.dat
+2023-06-23 14:55:39,983 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1687542939967\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-23 14:55:39,991 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-23 14:55:40,960 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-06-23 14:55:40,960 INFO :?:? - Internet connection validated, can connect to internet.
+2023-06-23 14:55:40,960 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1687542939967\installClientInfo.dat
+2023-06-23 14:55:41,080 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:41,080 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:41,949 DEBUG:?:? - Fetching notifications..
+2023-06-23 14:55:41,949 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-23 14:55:41,973 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-06-23 14:55:41,973 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-06-23 14:55:42,239 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:42,239 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:42,343 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:42,343 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:42,751 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:42,751 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:42,815 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:42,815 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:43,228 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:43,228 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:43,756 DEBUG:?:? - Fetching notifications..
+2023-06-23 14:55:43,756 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-06-23 14:55:44,236 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:44,236 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:55:44,644 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:55:44,644 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-06-23 14:56:04,954 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-06-23 14:56:04,954 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 16:34:34,071 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-01 16:34:34,567 DEBUG:?:? - Starting to listen
+2023-07-01 16:34:34,840 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-01 16:34:34,844 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-01 16:34:34,859 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-01 16:34:34,859 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688240074842\installClientInfo.dat
+2023-07-01 16:34:34,859 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688240074842\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-01 16:34:34,882 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-01 16:34:35,578 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-01 16:34:35,578 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-01 16:34:35,581 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688240074842\installClientInfo.dat
+2023-07-01 16:34:35,933 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 16:34:35,933 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 16:34:36,913 DEBUG:?:? - Fetching notifications..
+2023-07-01 16:34:36,925 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-01 16:34:36,928 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-01 16:34:37,144 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 16:34:37,145 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 16:34:37,440 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 16:34:37,441 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 16:34:37,766 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 16:34:37,766 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 16:34:38,240 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-01 16:34:38,600 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 16:34:38,600 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 16:34:38,699 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use C:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigImagePath_setOrigImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2023-07-01 16:34:38,708 ERROR:?:? - There was an error executing: [cmd, /c, net use C:]
+2023-07-01 16:34:38,819 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 16:34:38,819 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 16:34:59,244 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 16:34:59,245 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 21:57:39,760 DEBUG:?:? - Fetching notifications..
+2023-07-01 21:57:40,803 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-01 21:57:41,376 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 21:57:41,377 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-01 22:57:41,367 DEBUG:?:? - Fetching notifications..
+2023-07-01 22:57:42,383 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-01 22:57:42,859 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-01 22:57:42,859 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-02 17:23:54,536 DEBUG:?:? - Fetching notifications..
+2023-07-02 17:23:55,552 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-02 17:23:55,858 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-02 17:23:55,858 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-02 18:23:55,864 DEBUG:?:? - Fetching notifications..
+2023-07-02 18:23:56,884 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-02 18:23:57,396 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-02 18:23:57,396 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-02 19:23:57,388 DEBUG:?:? - Fetching notifications..
+2023-07-02 19:23:58,407 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-02 19:23:58,772 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-02 19:23:58,780 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 12:08:52,200 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 12:08:52,599 DEBUG:?:? - Starting to listen
+2023-07-04 12:08:52,859 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 12:08:52,867 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 12:08:52,876 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 12:08:52,876 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688483332859\installClientInfo.dat
+2023-07-04 12:08:52,876 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688483332859\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 12:08:52,891 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 12:08:53,110 ERROR:?:? - There is an error while downloading file: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+k.g: Http error is encountered when trying to download http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Http connection Ok;
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 12:08:53,110 DEBUG:?:? - Checking error to find out what to do with it.
+k.f: There is an error while downloading file: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 12:08:53,110 ERROR:?:? - There is an error while downloading file: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 12:08:53,110 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2023-07-04 12:08:53,110 DEBUG:?:? - Reset proxy to direct connect
+2023-07-04 12:08:53,119 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688483333110\installClientInfo.dat
+2023-07-04 12:08:53,119 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688483333110\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 12:08:53,119 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 12:08:53,128 ERROR:?:? - There is an error while downloading file: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+k.g: Http error is encountered when trying to download http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Http connection Ok;
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 12:08:53,128 DEBUG:?:? - Checking error to find out what to do with it.
+k.f: There is an error while downloading file: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 12:08:53,128 ERROR:?:? - There is an error while downloading file: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 12:08:53,976 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 12:08:53,977 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 12:08:54,722 DEBUG:?:? - Fetching notifications..
+2023-07-04 12:08:54,742 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 12:08:54,744 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 12:08:54,937 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 12:08:54,937 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 12:08:55,226 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 12:08:55,226 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 12:08:55,509 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 12:08:55,509 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 12:08:55,947 DEBUG:?:? - Fetching notifications..
+2023-07-04 13:48:13,908 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 13:48:14,508 DEBUG:?:? - Starting to listen
+2023-07-04 13:48:14,932 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 13:48:14,932 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 13:48:14,948 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 13:48:14,948 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688489294932\installClientInfo.dat
+2023-07-04 13:48:14,948 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688489294932\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 13:48:14,956 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 13:48:15,508 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 13:48:15,516 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 13:48:15,516 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688489294932\installClientInfo.dat
+2023-07-04 13:48:15,972 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:15,972 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 13:48:16,916 DEBUG:?:? - Fetching notifications..
+2023-07-04 13:48:16,916 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 13:48:16,940 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 13:48:16,940 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 13:48:17,036 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:17,044 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 13:48:17,388 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:17,420 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 13:48:17,708 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:17,708 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 13:48:18,140 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:18,140 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 13:48:18,508 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:18,508 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 13:48:19,088 DEBUG:?:? - Fetching notifications..
+2023-07-04 13:48:19,088 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 13:48:19,328 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:19,328 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 13:48:19,840 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 13:48:19,840 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:08:54,096 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 15:08:54,565 DEBUG:?:? - Starting to listen
+2023-07-04 15:08:54,764 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 15:08:54,772 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 15:08:54,788 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:08:54,788 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688494134772\installClientInfo.dat
+2023-07-04 15:08:54,788 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688494134772\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 15:08:54,804 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:08:55,900 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:08:55,900 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:08:55,972 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 15:08:55,972 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 15:08:55,980 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688494134772\installClientInfo.dat
+2023-07-04 15:08:56,978 DEBUG:?:? - Fetching notifications..
+2023-07-04 15:08:56,978 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 15:08:57,002 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 15:08:57,002 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 15:08:57,241 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:08:57,241 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:08:57,558 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:08:57,558 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:08:57,896 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:08:57,896 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:08:58,121 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:08:58,121 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:08:58,664 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use C:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigUpdateImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigUpdateImagePath_setOrigUpdateImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2023-07-04 15:08:58,676 ERROR:?:? - There was an error executing: [cmd, /c, net use C:]
+2023-07-04 15:08:58,735 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:08:58,735 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:08:59,591 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:08:59,591 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:54,036 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 15:27:54,522 DEBUG:?:? - Starting to listen
+2023-07-04 15:27:54,691 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 15:27:54,695 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 15:27:54,704 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:27:54,704 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688495274693\installClientInfo.dat
+2023-07-04 15:27:54,705 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688495274693\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 15:27:54,715 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:27:55,528 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 15:27:55,528 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 15:27:55,532 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688495274693\installClientInfo.dat
+2023-07-04 15:27:55,788 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:55,789 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:56,671 DEBUG:?:? - Fetching notifications..
+2023-07-04 15:27:56,672 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 15:27:56,693 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 15:27:56,695 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 15:27:56,919 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:56,919 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:57,143 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:57,170 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:57,638 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:57,638 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:57,681 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:57,681 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:58,227 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:58,227 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:58,288 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:58,289 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:58,950 DEBUG:?:? - Fetching notifications..
+2023-07-04 15:27:58,952 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 15:27:59,266 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:59,266 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:59,521 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:59,521 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:27:59,861 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:27:59,861 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:30:21,125 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 15:30:21,481 DEBUG:?:? - Starting to listen
+2023-07-04 15:30:21,619 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 15:30:21,621 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 15:30:21,628 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:30:21,629 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688495421619\installClientInfo.dat
+2023-07-04 15:30:21,629 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688495421619\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 15:30:21,637 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:30:22,740 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:30:22,740 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:30:23,357 DEBUG:?:? - Fetching notifications..
+2023-07-04 15:30:23,389 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 15:30:23,390 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 15:30:23,656 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:30:23,657 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:30:23,972 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:30:23,972 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:30:24,277 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\Vivado_2017.4
+2023-07-04 15:30:24,277 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\Vivado_2017.4\data\instRecord.dat
+2023-07-04 15:44:45,579 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 15:44:46,272 DEBUG:?:? - Starting to listen
+2023-07-04 15:44:46,502 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 15:44:46,504 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 15:44:46,512 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:44:46,513 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688496286502\installClientInfo.dat
+2023-07-04 15:44:46,513 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688496286502\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 15:44:46,524 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:44:47,505 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 15:44:47,505 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 15:44:47,507 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688496286502\installClientInfo.dat
+2023-07-04 15:44:48,224 DEBUG:?:? - Fetching notifications..
+2023-07-04 15:44:48,266 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 15:44:48,267 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 15:44:48,785 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 15:44:49,300 DEBUG:?:? - Fetching notifications..
+2023-07-04 15:44:49,300 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 15:52:12,340 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 15:52:12,684 DEBUG:?:? - Starting to listen
+2023-07-04 15:52:12,856 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 15:52:12,856 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 15:52:12,872 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:52:12,872 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688496732856\installClientInfo.dat
+2023-07-04 15:52:12,872 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688496732856\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 15:52:12,872 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:52:14,295 DEBUG:?:? - Fetching notifications..
+2023-07-04 15:52:14,308 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 15:52:14,309 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 15:52:20,141 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 15:52:20,141 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:52:20,271 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2023-07-04 15:52:20,287 DEBUG:?:? - Reset proxy to direct connect
+2023-07-04 15:52:20,304 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688496740287\installClientInfo.dat
+2023-07-04 15:52:20,305 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688496740287\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 15:52:20,307 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:52:20,308 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 15:52:20,308 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 15:52:20,462 DEBUG:?:? - Fetching notifications..
+2023-07-04 16:14:13,274 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 16:14:16,488 DEBUG:?:? - Could not talk to the other instance, will resume normal operation.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.xic.XIC.a(Unknown Source)
+	at i.b.e(Unknown Source)
+	at i.b.<init>(Unknown Source)
+	at com.xilinx.installer.gui.E.<init>(Unknown Source)
+	at com.xilinx.xic.XIC.<init>(Unknown Source)
+	at com.xilinx.xic.XIC.l(Unknown Source)
+	at com.xilinx.xic.XIC.main(Unknown Source)
+2023-07-04 16:14:16,492 DEBUG:?:? - Starting to listen
+2023-07-04 16:14:16,667 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 16:14:16,670 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 16:14:16,678 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 16:14:16,678 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688498056668\installClientInfo.dat
+2023-07-04 16:14:16,679 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688498056668\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 16:14:16,689 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 16:14:17,673 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 16:14:17,673 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 16:14:17,674 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688498056668\installClientInfo.dat
+2023-07-04 16:14:18,154 DEBUG:?:? - Fetching notifications..
+2023-07-04 16:14:18,169 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 16:14:18,171 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 16:14:18,724 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 16:14:19,195 DEBUG:?:? - Fetching notifications..
+2023-07-04 16:14:19,195 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 16:39:31,498 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 16:39:32,144 DEBUG:?:? - Starting to listen
+2023-07-04 16:39:32,425 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 16:39:32,429 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 16:39:32,443 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 16:39:32,443 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688499572426\installClientInfo.dat
+2023-07-04 16:39:32,444 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688499572426\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 16:39:32,462 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 16:39:33,292 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 16:39:33,293 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 16:39:33,293 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688499572426\installClientInfo.dat
+2023-07-04 16:39:33,864 DEBUG:?:? - Fetching notifications..
+2023-07-04 16:39:33,866 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 16:39:33,889 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 16:39:33,891 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 16:39:34,488 DEBUG:?:? - Fetching notifications..
+2023-07-04 16:39:34,490 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 17:07:37,025 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 17:07:37,497 DEBUG:?:? - Starting to listen
+2023-07-04 17:07:37,748 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 17:07:37,750 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 17:07:37,760 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 17:07:37,760 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688501257748\installClientInfo.dat
+2023-07-04 17:07:37,761 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688501257748\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 17:07:37,777 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 17:07:38,830 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 17:07:38,830 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 17:07:38,831 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688501257748\installClientInfo.dat
+2023-07-04 17:07:39,235 DEBUG:?:? - Fetching notifications..
+2023-07-04 17:07:39,252 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 17:07:39,253 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 17:07:39,734 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 17:07:40,204 DEBUG:?:? - Fetching notifications..
+2023-07-04 17:07:40,205 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 17:25:11,587 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 17:25:12,084 DEBUG:?:? - Starting to listen
+2023-07-04 17:25:12,360 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 17:25:12,364 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 17:25:12,373 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 17:25:12,373 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688502312361\installClientInfo.dat
+2023-07-04 17:25:12,373 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688502312361\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 17:25:12,395 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 17:25:13,207 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 17:25:13,207 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 17:25:13,209 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688502312361\installClientInfo.dat
+2023-07-04 17:25:13,922 DEBUG:?:? - Fetching notifications..
+2023-07-04 17:25:13,940 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 17:25:13,942 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 17:25:14,476 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 17:25:14,861 DEBUG:?:? - Fetching notifications..
+2023-07-04 17:25:14,862 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 18:25:42,688 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 18:25:43,120 DEBUG:?:? - Starting to listen
+2023-07-04 18:25:43,280 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 18:25:43,280 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 18:25:43,296 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 18:25:43,296 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688505943280\installClientInfo.dat
+2023-07-04 18:25:43,296 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688505943280\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 18:25:43,304 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 18:25:43,328 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 18:25:43,328 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 18:25:43,328 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2023-07-04 18:25:43,328 DEBUG:?:? - Reset proxy to direct connect
+2023-07-04 18:25:43,328 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688505943328\installClientInfo.dat
+2023-07-04 18:25:43,328 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688505943328\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 18:25:43,336 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 18:25:43,336 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2023-07-04 18:25:43,336 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 18:25:43,664 DEBUG:?:? - Fetching notifications..
+2023-07-04 18:25:43,680 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 18:25:43,680 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 18:25:44,148 DEBUG:?:? - Fetching notifications..
+2023-07-04 23:57:12,470 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-04 23:57:13,110 DEBUG:?:? - Starting to listen
+2023-07-04 23:57:13,470 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-04 23:57:13,478 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-04 23:57:13,494 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 23:57:13,494 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688525833470\installClientInfo.dat
+2023-07-04 23:57:13,494 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688525833470\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-04 23:57:13,502 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-04 23:57:14,214 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-04 23:57:14,214 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-04 23:57:14,214 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688525833470\installClientInfo.dat
+2023-07-04 23:57:15,062 DEBUG:?:? - Fetching notifications..
+2023-07-04 23:57:15,062 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-04 23:57:15,086 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-04 23:57:15,094 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-04 23:57:15,654 DEBUG:?:? - Fetching notifications..
+2023-07-04 23:57:15,654 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-05 00:57:15,880 DEBUG:?:? - Fetching notifications..
+2023-07-05 00:57:16,912 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-05 11:30:16,104 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-05 11:30:16,696 DEBUG:?:? - Starting to listen
+2023-07-05 11:30:17,008 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-05 11:30:17,016 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-05 11:30:17,024 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-05 11:30:17,032 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688567417008\installClientInfo.dat
+2023-07-05 11:30:17,032 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688567417008\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-05 11:30:17,048 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-05 11:30:17,736 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-05 11:30:17,736 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-05 11:30:17,736 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688567417008\installClientInfo.dat
+2023-07-05 11:30:18,616 DEBUG:?:? - Fetching notifications..
+2023-07-05 11:30:18,648 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-05 11:30:18,648 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-05 11:30:19,528 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-05 11:30:19,728 DEBUG:?:? - Fetching notifications..
+2023-07-05 11:30:19,728 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-05 12:30:19,983 DEBUG:?:? - Fetching notifications..
+2023-07-05 12:30:21,078 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-05 13:30:21,798 DEBUG:?:? - Fetching notifications..
+2023-07-05 13:30:22,817 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-06 13:29:55,218 DEBUG:?:? - Fetching notifications..
+2023-07-06 13:29:56,238 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-06 16:42:39,251 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-07-06 16:42:39,733 DEBUG:?:? - Starting to listen
+2023-07-06 16:42:40,033 DEBUG:?:? - Could not auto detect proxy settings
+2023-07-06 16:42:40,036 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-07-06 16:42:40,062 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-06 16:42:40,062 DEBUG:?:? - Download to C:\Users\arthur\AppData\Local\Temp\1688672560034\installClientInfo.dat
+2023-07-06 16:42:40,063 DEBUG:?:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1688672560034\installClientInfo.dat,  deleting and starting download from scratch.
+2023-07-06 16:42:40,077 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-07-06 16:42:41,510 DEBUG:?:? - Fetching notifications..
+2023-07-06 16:42:41,526 DEBUG:?:? - Get the installation record file from C:\Xilinx\.xinstall\DocNav
+2023-07-06 16:42:41,527 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, C:\Xilinx\.xinstall\DocNav\data\instRecord.dat
+2023-07-06 16:42:41,845 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-07-06 16:42:41,847 INFO :?:? - Internet connection validated, can connect to internet.
+2023-07-06 16:42:41,847 DEBUG:?:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1688672560034\installClientInfo.dat
+2023-07-06 16:42:42,079 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2023-07-06 16:42:42,797 DEBUG:?:? - Fetching notifications..
+2023-07-06 16:42:42,797 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml

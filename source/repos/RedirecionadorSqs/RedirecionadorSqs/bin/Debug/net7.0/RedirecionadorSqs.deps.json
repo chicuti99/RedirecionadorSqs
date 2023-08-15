@@ -8,10 +8,30 @@
     ".NETCoreApp,Version=v7.0": {
       "RedirecionadorSqs/1.0.0": {
         "dependencies": {
+          "AWSSDK.SQS": "3.7.200.14",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "RedirecionadorSqs.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.200.13": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.200.13"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.200.14": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.200.13"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.200.14"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -29,6 +49,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.200.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yiUuhTI8w183euRqhXym1DyhnD/1ccxceRoruCfkIoqY3PAaFgFL8pE4iDLDZa7SUW4M4qZnQ5PMlFr1rrl6zw==",
+      "path": "awssdk.core/3.7.200.13",
+      "hashPath": "awssdk.core.3.7.200.13.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.200.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jEDxFaPHm5IuzleS+no2R66txT2fJ+XLBsCeSJsYSUTvtcp5R/TpwRdNgjkXtraLT16lOpdcrtsRb4NTWIjbKw==",
+      "path": "awssdk.sqs/3.7.200.14",
+      "hashPath": "awssdk.sqs.3.7.200.14.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

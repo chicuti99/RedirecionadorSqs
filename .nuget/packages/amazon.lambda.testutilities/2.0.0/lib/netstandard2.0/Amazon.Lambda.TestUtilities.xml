@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Amazon.Lambda.TestUtilities</name>
+    </assembly>
+    <members>
+        <member name="T:Amazon.Lambda.TestUtilities.TestClientApplication">
+            <summary>
+            A test implementation of the IClientApplication interface used for writing local tests of Lambda Functions.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientApplication.AppPackageName">
+            <summary>
+            The application's package name.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientApplication.AppTitle">
+            <summary>
+            The application's title.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientApplication.AppVersionCode">
+            <summary>
+            The application's version code.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientApplication.AppVersionName">
+            <summary>
+            The application's version.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientApplication.InstallationId">
+            <summary>
+            The application's installation id.
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.TestUtilities.TestClientContext">
+            <summary>
+            A test implementation of the IClientContext interface used for writing local tests of Lambda Functions.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientContext.Client">
+            <summary>
+            The client information provided by the AWS Mobile SDK.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientContext.Custom">
+            <summary>
+            Custom values set by the client application.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestClientContext.Environment">
+            <summary>
+            Environment information provided by mobile SDK. 
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.TestUtilities.TestCognitoIdentity">
+            <summary>
+            A test implementation of the ICognitoIdentity interface used for writing local tests of Lambda Functions.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestCognitoIdentity.IdentityId">
+            <summary>
+            The Amazon Cognito identity ID.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestCognitoIdentity.IdentityPoolId">
+            <summary>
+            The Amazon Cognito identity pool ID.
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.TestUtilities.TestLambdaContext">
+            <summary>
+            A test implementation of the ILambdaContext interface used for writing local tests of Lambda Functions.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.AwsRequestId">
+            <summary>
+            The AWS request ID associated with the request.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.ClientContext">
+            <summary>
+            Information about the client application and device when invoked
+            through the AWS Mobile SDK.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.FunctionName">
+            <summary>
+            Name of the Lambda function that is running.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.FunctionVersion">
+            <summary>
+            The Lambda function version that is executing.
+            If an alias is used to invoke the function, then this will be
+            the version the alias points to.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.Identity">
+            <summary>
+            Information about the Amazon Cognito identity provider when
+            invoked through the AWS Mobile SDK.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.InvokedFunctionArn">
+            <summary>
+            The ARN used to invoke this function.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.Logger">
+            <summary>
+            Lambda logger associated with the Context object. For the TestLambdaContext this is default to the TestLambdaLogger.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.LogGroupName">
+            <summary>
+            The CloudWatch log group name associated with the invoked function.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.LogStreamName">
+            <summary>
+            The CloudWatch log stream name for this function execution.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.MemoryLimitInMB">
+            <summary>
+            Memory limit, in MB, you configured for the Lambda function.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaContext.RemainingTime">
+            <summary>
+            Remaining execution time till the function will be terminated.
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.TestUtilities.TestLambdaLogger">
+            <summary>
+            An implementation if ILambdaLogger that stores all the messages in a buffer and writes the messages to the console.
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.TestUtilities.TestLambdaLogger.Buffer">
+            <summary>
+            Buffer for all the log messages written to the logger.
+            </summary>
+        </member>
+        <member name="M:Amazon.Lambda.TestUtilities.TestLambdaLogger.Log(System.String)">
+            <summary>
+            Write log messages to the console and the Buffer without appending a newline terminator.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Amazon.Lambda.TestUtilities.TestLambdaLogger.LogLine(System.String)">
+            <summary>
+            Write log messages to the console and the Buffer with a newline terminator.
+            </summary>
+            <param name="message"></param>
+        </member>
+    </members>
+</doc>

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RedirecionadorSqs
-build_property.ProjectDir = C:\Users\arthur\source\repos\SQS com json\RedirecionamentoSqs\source\repos\RedirecionadorSqs\RedirecionadorSqs\
+build_property.ProjectDir = C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\

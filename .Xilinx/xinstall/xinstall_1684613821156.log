@@ -1,0 +1,71 @@
+2023-05-20 17:17:42,214 DEBUG: com.xilinx.installer.api.e:? - Log file location: C:\Users\arthur\.Xilinx\xinstall\xinstall_1684613821156.log
+2023-05-20 17:17:42,575 DEBUG: com.xilinx.installer.api.e:? - Memory usage -- Used memory: 5796 MB. Total memory: 8073 MB
+Recent cpu usage for system: 0%
+2023-05-20 17:17:42,587 DEBUG: com.xilinx.installer.api.d:? - This is a fresh installation.
+2023-05-20 17:17:42,784 DEBUG: com.xilinx.installer.api.e:? - PAYLOAD_LOCATION_FROM_USER is not set.
+2023-05-20 17:17:42,785 DEBUG: com.xilinx.installer.api.e:? - Payload was not found in the image, C:\Users\arthur\AppData\Local\Temp\7ZipSfx.001\bin\..\payload does NOT exist.
+2023-05-20 17:17:42,785 DEBUG: com.xilinx.installer.api.e:? - Payload location could not be set at this point.
+2023-05-20 17:17:42,785 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.WelcomePanel, refKey: WelcomePanel_Install
+2023-05-20 17:17:42,844 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel, refKey: InstallationTypeWithLoginPanel_Install
+2023-05-20 17:17:42,996 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.eula.EULAsPanel, refKey: EULAPanel_Install
+2023-05-20 17:17:43,075 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.packages.simple.PackagesPanel, refKey: PackagePanel_Install
+2023-05-20 17:17:43,106 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.packages.simple.ModulesPanel, refKey: ModulesPanel_Install
+2023-05-20 17:17:43,199 DEBUG: com.xilinx.installer.gui.panel.packages.simple.a:? - expand for moduleIDataEltDecorator [element=IDataElement [refKey=SoCs_All_Devices_DevModule]]
+2023-05-20 17:17:43,200 DEBUG: com.xilinx.installer.gui.panel.packages.simple.a:? - expand for moduleIDataEltDecorator [element=IDataElement [refKey=7_Series_Devices_Edition]]
+2023-05-20 17:17:43,200 DEBUG: com.xilinx.installer.gui.panel.packages.simple.a:? - expand for moduleIDataEltDecorator [element=IDataElement [refKey=8_Series_Devices_Edition]]
+2023-05-20 17:17:43,201 DEBUG: com.xilinx.installer.gui.panel.packages.simple.a:? - expand for moduleIDataEltDecorator [element=IDataElement [refKey=UltraScale_Plus_All_Devices_DevModule]]
+2023-05-20 17:17:43,209 DEBUG: o.f:? - Module: Vivado dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 90 Total archive numbers: 90
+2023-05-20 17:17:43,209 DEBUG: o.f:? - Module: System Generator for DSP dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 1 Total archive numbers: 91
+2023-05-20 17:17:43,210 DEBUG: o.f:? - Module: Adds Common Links dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 91
+2023-05-20 17:17:43,210 DEBUG: o.f:? - Module: SDK Core Tools dest: C:\Xilinx\SDK\2017.4 Archive numbers in module: 146 Total archive numbers: 237
+2023-05-20 17:17:43,211 DEBUG: o.f:? - Module: MicroBlaze dest: C:\Xilinx\SDK\2017.4 Archive numbers in module: 10 Total archive numbers: 247
+2023-05-20 17:17:43,211 DEBUG: o.f:? - Module: ARM Cortex-A9 dest: C:\Xilinx\SDK\2017.4 Archive numbers in module: 4 Total archive numbers: 250
+2023-05-20 17:17:43,211 DEBUG: o.f:? - Module: ARM Cortex-A53 dest: C:\Xilinx\SDK\2017.4 Archive numbers in module: 7 Total archive numbers: 253
+2023-05-20 17:17:43,212 DEBUG: o.f:? - Module: ARM Cortex R5 dest: C:\Xilinx\SDK\2017.4 Archive numbers in module: 3 Total archive numbers: 255
+2023-05-20 17:17:43,212 DEBUG: o.f:? - Module: Compiler Tool Chains dest: C:\Xilinx\SDK\2017.4 Archive numbers in module: 0 Total archive numbers: 255
+2023-05-20 17:17:43,212 DEBUG: o.f:? - Module: Software Development Kit (SDK) dest: C:\Xilinx\SDK\2017.4 Archive numbers in module: 0 Total archive numbers: 255
+2023-05-20 17:17:43,213 DEBUG: o.f:? - Module: DocNav dest: C:\Xilinx\DocNav Archive numbers in module: 2 Total archive numbers: 257
+2023-05-20 17:17:43,214 DEBUG: o.f:? - Module: Xilinx Information Center dest: C:\Xilinx\xic Archive numbers in module: 14 Total archive numbers: 271
+2023-05-20 17:17:43,214 DEBUG: o.f:? - Module: Zynq-7000 Vivado Devices dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 26 Total archive numbers: 293
+2023-05-20 17:17:43,215 DEBUG: o.f:? - Module: ISE dest: C:\Xilinx\Vivado\2017.4\ids_lite\ISE Archive numbers in module: 14 Total archive numbers: 307
+2023-05-20 17:17:43,215 DEBUG: o.f:? - Module: Zynq-7000 dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 307
+2023-05-20 17:17:43,215 DEBUG: o.f:? - Module: Zynq UltraScale+ MPSoC dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 47 Total archive numbers: 350
+2023-05-20 17:17:43,215 DEBUG: o.f:? - Module: SoCs dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 350
+2023-05-20 17:17:43,216 DEBUG: o.f:? - Module: Artix-7 Vivado dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 21 Total archive numbers: 364
+2023-05-20 17:17:43,216 DEBUG: o.f:? - Module: ISE dest: C:\Xilinx\Vivado\2017.4\ids_lite\ISE Archive numbers in module: 14 Total archive numbers: 364
+2023-05-20 17:17:43,216 DEBUG: o.f:? - Module: Artix-7 dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 364
+2023-05-20 17:17:43,217 DEBUG: o.f:? - Module: Kintex-7 Vivado Devices dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 15 Total archive numbers: 372
+2023-05-20 17:17:43,217 DEBUG: o.f:? - Module: ISE dest: C:\Xilinx\Vivado\2017.4\ids_lite\ISE Archive numbers in module: 14 Total archive numbers: 372
+2023-05-20 17:17:43,217 DEBUG: o.f:? - Module: Kintex-7 dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 372
+2023-05-20 17:17:43,218 DEBUG: o.f:? - Module: Spartan-7 Vivado Devices dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 16 Total archive numbers: 378
+2023-05-20 17:17:43,218 DEBUG: o.f:? - Module: ISE dest: C:\Xilinx\Vivado\2017.4\ids_lite\ISE Archive numbers in module: 14 Total archive numbers: 378
+2023-05-20 17:17:43,218 DEBUG: o.f:? - Module: Spartan-7 dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 378
+2023-05-20 17:17:43,219 DEBUG: o.f:? - Module: Virtex-7 Vivado Devices dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 19 Total archive numbers: 390
+2023-05-20 17:17:43,219 DEBUG: o.f:? - Module: ISE dest: C:\Xilinx\Vivado\2017.4\ids_lite\ISE Archive numbers in module: 14 Total archive numbers: 390
+2023-05-20 17:17:43,219 DEBUG: o.f:? - Module: Virtex-7 dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 390
+2023-05-20 17:17:43,219 DEBUG: o.f:? - Module: 7 Series dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 390
+2023-05-20 17:17:43,220 DEBUG: o.f:? - Module: Kintex UltraScale dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 35 Total archive numbers: 418
+2023-05-20 17:17:43,220 DEBUG: o.f:? - Module: Virtex UltraScale dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 16 Total archive numbers: 427
+2023-05-20 17:17:43,220 DEBUG: o.f:? - Module: UltraScale dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 427
+2023-05-20 17:17:43,220 DEBUG: o.f:? - Module: Kintex UltraScale+ dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 22 Total archive numbers: 439
+2023-05-20 17:17:43,221 DEBUG: o.f:? - Module: Virtex UltraScale+ dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 26 Total archive numbers: 455
+2023-05-20 17:17:43,221 DEBUG: o.f:? - Module: UltraScale+ dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 455
+2023-05-20 17:17:43,221 DEBUG: o.f:? - Module: Production Devices dest: C:\Xilinx\Vivado\2017.4 Archive numbers in module: 0 Total archive numbers: 455
+2023-05-20 17:17:43,228 DEBUG: o.f:? - Download archive numbers: 347
+2023-05-20 17:17:43,230 DEBUG: o.f:? - Download archive numbers: 347
+2023-05-20 17:17:43,234 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.destination.DestinationPanel, refKey: DestinationPanel_Install
+2023-05-20 17:17:43,255 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.summary.SummaryPanel, refKey: SummaryPanel_Install
+2023-05-20 17:17:43,261 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.progress.ModernProgressPanel, refKey: ProgressPanel_Install
+2023-05-20 17:17:44,167 DEBUG: k.b:? - Could not auto detect proxy settings
+2023-05-20 17:17:44,169 DEBUG: k.b:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-05-20 17:17:44,177 DEBUG: k.b:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-05-20 17:17:44,178 DEBUG: k.l:? - Download to C:\Users\arthur\AppData\Local\Temp\1684613864168\installClientInfo.dat
+2023-05-20 17:17:44,178 DEBUG: k.l:? - File not exists or incomplete file C:\Users\arthur\AppData\Local\Temp\1684613864168\installClientInfo.dat,  deleting and starting download from scratch.
+2023-05-20 17:17:44,182 DEBUG: k.l:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-05-20 17:17:44,796 DEBUG: k.l:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1051 bytes, elapsedTime: 0:0:0:0
+2023-05-20 17:17:44,796 INFO : k.b:? - Internet connection validated, can connect to internet.
+2023-05-20 17:17:44,796 DEBUG: k.b:? - Loading install client info from: C:\Users\arthur\AppData\Local\Temp\1684613864168\installClientInfo.dat
+2023-05-20 17:18:15,992 ERROR: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel:? - The install web client version 2017.4 is no longer valid for Xilinx SW SuiteVIVADO
+2023-05-20 17:18:27,114 DEBUG: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel:? - download directory is set to C:\Xilinx\Downloads\2017.4
+2023-05-20 17:18:36,994 ERROR: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel:? - The install web client version 2017.4 is no longer valid for Xilinx SW SuiteVIVADO
+2023-05-20 17:18:49,879 ERROR: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel:? - The install web client version 2017.4 is no longer valid for Xilinx SW SuiteVIVADO

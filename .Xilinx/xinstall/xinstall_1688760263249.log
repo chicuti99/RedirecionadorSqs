@@ -1,0 +1,312 @@
+2023-07-07 17:05:03,435 DEBUG: com.xilinx.installer.api.e:? - Log file location: C:\Users\arthur\.Xilinx\xinstall\xinstall_1688760263249.log
+2023-07-07 17:05:03,758 DEBUG: com.xilinx.installer.api.e:? - Memory usage -- Used memory: 7005 MB. Total memory: 8073 MB
+Recent cpu usage for system: 0%
+2023-07-07 17:05:03,939 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2023-07-07 17:05:03,942 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2023-07-07 17:05:03,946 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2023-07-07 17:05:03,946 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2023-07-07 17:05:03,946 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2023-07-07 17:05:04,251 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.summary.UninstallerSummaryPanel, refKey: UninstallSummaryPanel
+2023-07-07 17:05:04,302 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.progress.UninstallProgressPanel, refKey: UninstallProgressPanel
+2023-07-07 17:05:14,066 DEBUG: o.j:? - Initiating uninstallation process.
+2023-07-07 17:05:14,070 DEBUG: o.j:? - Found C:\Xilinx\.xinstall\DocNav. Not deleting C:\Xilinx\.xinstall
+2023-07-07 17:05:14,109 DEBUG: o.j:? - Delete shortcuts...
+2023-07-07 17:05:14,110 DEBUG: m.c:? - Deleted shortcut: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\Uninstall Xilinx Information Center.lnk
+2023-07-07 17:05:14,111 DEBUG: m.c:? - Deleted shortcut: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Xilinx Information Center.lnk
+2023-07-07 17:05:14,112 DEBUG: m.c:? - Deleted shortcut: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\Xilinx Information Center.lnk
+2023-07-07 17:05:14,113 DEBUG: com.xilinx.installer.utils.FileUtilities:? - Remove empty directory: C:\Users\arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools
+2023-07-07 17:05:14,115 DEBUG: com.xilinx.installer.utils.n:? - r:/scratch/builds/HEAD/continuous/2017_07_12_1930218/src/products/installer/cxx-src/common/RegistryManager.cxx:648 - Deleted Uninstall registry entry successfully: Xilinx_Xilinx Information Center_2017.4#0
+2023-07-07 17:05:14,115 DEBUG: o.k:? - Cleaning up registry entries
+2023-07-07 17:05:14,115 DEBUG: l.c:? - Deleting REG ENTRIES associated with modules...
+2023-07-07 17:05:14,115 DEBUG: o.j:? - Cleaning up registry entries - SUCCESS
+2023-07-07 17:05:14,116 DEBUG: o.p:? - Removing files...
+2023-07-07 17:05:14,116 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\tps\win64\jre
+2023-07-07 17:05:14,217 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\tps\win64
+2023-07-07 17:05:14,314 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\tps
+2023-07-07 17:05:14,315 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\scripts
+2023-07-07 17:05:14,315 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\lib\win64.o
+2023-07-07 17:05:14,352 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\lib\classes
+2023-07-07 17:05:14,357 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\lib
+2023-07-07 17:05:14,358 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\data\images
+2023-07-07 17:05:14,379 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\data
+2023-07-07 17:05:14,382 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\bin\unwrapped\win64.o
+2023-07-07 17:05:14,403 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\bin\unwrapped
+2023-07-07 17:05:14,404 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic\bin
+2023-07-07 17:05:14,411 DEBUG: o.q:? - Could not delete C:\Xilinx\xic\bin. C:\Xilinx\xic\bin
+2023-07-07 17:05:14,412 DEBUG: o.p:? - Deleting directory C:\Xilinx\xic
+2023-07-07 17:05:14,428 DEBUG: o.q:? - Could not delete C:\Xilinx\xic\bin. C:\Xilinx\xic\bin
+2023-07-07 17:05:14,430 DEBUG: o.q:? - Could not delete C:\Xilinx\xic. C:\Xilinx\xic
+2023-07-07 17:05:14,430 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\tps\win64\jre
+2023-07-07 17:05:14,433 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll
+2023-07-07 17:05:14,433 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:05:14,439 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:05:14,450 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll
+2023-07-07 17:05:14,451 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe
+2023-07-07 17:05:14,459 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:05:14,463 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll
+2023-07-07 17:05:14,463 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:05:14,464 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll
+2023-07-07 17:05:14,465 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll
+2023-07-07 17:05:14,472 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:05:14,473 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server
+2023-07-07 17:05:14,474 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:05:14,475 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:05:14,477 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll
+2023-07-07 17:05:14,478 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll
+2023-07-07 17:05:14,478 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin
+2023-07-07 17:05:14,481 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,492 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,493 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,493 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,494 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,495 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,496 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,497 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext
+2023-07-07 17:05:14,507 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,508 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,513 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,513 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,517 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib
+2023-07-07 17:05:14,519 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre. C:\Xilinx\.xinstall\xic\tps\win64\jre
+2023-07-07 17:05:14,519 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\tps\win64
+2023-07-07 17:05:14,538 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll
+2023-07-07 17:05:14,539 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:05:14,541 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:05:14,542 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll
+2023-07-07 17:05:14,543 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe
+2023-07-07 17:05:14,543 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:05:14,544 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll
+2023-07-07 17:05:14,544 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:05:14,545 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll
+2023-07-07 17:05:14,546 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll
+2023-07-07 17:05:14,546 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:05:14,547 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server
+2023-07-07 17:05:14,548 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:05:14,549 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:05:14,549 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll
+2023-07-07 17:05:14,550 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll
+2023-07-07 17:05:14,550 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin
+2023-07-07 17:05:14,550 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,551 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,553 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,553 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,554 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,554 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,554 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,555 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext
+2023-07-07 17:05:14,555 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,556 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,556 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,557 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,557 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib
+2023-07-07 17:05:14,557 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre. C:\Xilinx\.xinstall\xic\tps\win64\jre
+2023-07-07 17:05:14,560 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64. C:\Xilinx\.xinstall\xic\tps\win64
+2023-07-07 17:05:14,560 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\tps
+2023-07-07 17:05:14,561 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll
+2023-07-07 17:05:14,562 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:05:14,563 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:05:14,565 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll
+2023-07-07 17:05:14,566 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe
+2023-07-07 17:05:14,566 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:05:14,566 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll
+2023-07-07 17:05:14,566 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:05:14,568 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll
+2023-07-07 17:05:14,569 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll
+2023-07-07 17:05:14,570 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:05:14,571 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server
+2023-07-07 17:05:14,571 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:05:14,572 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:05:14,572 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll
+2023-07-07 17:05:14,573 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll
+2023-07-07 17:05:14,573 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin
+2023-07-07 17:05:14,574 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,574 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,575 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,576 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,576 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,577 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,577 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,578 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext
+2023-07-07 17:05:14,578 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,579 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,580 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,580 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,580 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib
+2023-07-07 17:05:14,580 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre. C:\Xilinx\.xinstall\xic\tps\win64\jre
+2023-07-07 17:05:14,581 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64. C:\Xilinx\.xinstall\xic\tps\win64
+2023-07-07 17:05:14,581 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps. C:\Xilinx\.xinstall\xic\tps
+2023-07-07 17:05:14,581 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\scripts
+2023-07-07 17:05:14,585 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\lib\win64.o
+2023-07-07 17:05:14,603 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_filesystem.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_filesystem.dll
+2023-07-07 17:05:14,605 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_regex.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_regex.dll
+2023-07-07 17:05:14,606 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_system.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_system.dll
+2023-07-07 17:05:14,608 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_7z.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_7z.dll
+2023-07-07 17:05:14,609 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_Client7z.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_Client7z.dll
+2023-07-07 17:05:14,609 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\librdi_install.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\librdi_install.dll
+2023-07-07 17:05:14,611 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o. C:\Xilinx\.xinstall\xic\lib\win64.o
+2023-07-07 17:05:14,611 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\lib\classes
+2023-07-07 17:05:14,611 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-cli-1.2.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-cli-1.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,613 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-codec-1.6.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-codec-1.6.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,613 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-logging-1.1.1.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-logging-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,614 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\httpclient-4.2.5.jar. C:\Xilinx\.xinstall\xic\lib\classes\httpclient-4.2.5.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,618 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\httpcore-4.2.4.jar. C:\Xilinx\.xinstall\xic\lib\classes\httpcore-4.2.4.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,619 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\json-simple-1.1.1.jar. C:\Xilinx\.xinstall\xic\lib\classes\json-simple-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,619 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\log4j-1.2.15.jar. C:\Xilinx\.xinstall\xic\lib\classes\log4j-1.2.15.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,619 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\xinstaller.jar. C:\Xilinx\.xinstall\xic\lib\classes\xinstaller.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,619 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\zip4j_1.3.2.jar. C:\Xilinx\.xinstall\xic\lib\classes\zip4j_1.3.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,619 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes. C:\Xilinx\.xinstall\xic\lib\classes
+2023-07-07 17:05:14,621 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\lib
+2023-07-07 17:05:14,624 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-cli-1.2.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-cli-1.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,626 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-codec-1.6.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-codec-1.6.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,626 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-logging-1.1.1.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-logging-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,626 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\httpclient-4.2.5.jar. C:\Xilinx\.xinstall\xic\lib\classes\httpclient-4.2.5.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,630 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\httpcore-4.2.4.jar. C:\Xilinx\.xinstall\xic\lib\classes\httpcore-4.2.4.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,630 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\json-simple-1.1.1.jar. C:\Xilinx\.xinstall\xic\lib\classes\json-simple-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,631 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\log4j-1.2.15.jar. C:\Xilinx\.xinstall\xic\lib\classes\log4j-1.2.15.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,631 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\xinstaller.jar. C:\Xilinx\.xinstall\xic\lib\classes\xinstaller.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,632 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\zip4j_1.3.2.jar. C:\Xilinx\.xinstall\xic\lib\classes\zip4j_1.3.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,633 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes. C:\Xilinx\.xinstall\xic\lib\classes
+2023-07-07 17:05:14,634 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_filesystem.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_filesystem.dll
+2023-07-07 17:05:14,634 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_regex.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_regex.dll
+2023-07-07 17:05:14,635 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_system.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_system.dll
+2023-07-07 17:05:14,635 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_7z.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_7z.dll
+2023-07-07 17:05:14,635 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_Client7z.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_Client7z.dll
+2023-07-07 17:05:14,636 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\librdi_install.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\librdi_install.dll
+2023-07-07 17:05:14,636 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o. C:\Xilinx\.xinstall\xic\lib\win64.o
+2023-07-07 17:05:14,636 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib. C:\Xilinx\.xinstall\xic\lib
+2023-07-07 17:05:14,636 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\data\images
+2023-07-07 17:05:14,652 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\data
+2023-07-07 17:05:14,656 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\bin\unwrapped\win64.o
+2023-07-07 17:05:14,675 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\bin\unwrapped
+2023-07-07 17:05:14,676 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic\bin
+2023-07-07 17:05:14,694 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\bin. C:\Xilinx\.xinstall\xic\bin: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,694 DEBUG: o.p:? - Deleting directory C:\Xilinx\.xinstall\xic
+2023-07-07 17:05:14,710 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\bin. C:\Xilinx\.xinstall\xic\bin: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,711 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-cli-1.2.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-cli-1.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,711 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-codec-1.6.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-codec-1.6.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,712 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\commons-logging-1.1.1.jar. C:\Xilinx\.xinstall\xic\lib\classes\commons-logging-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,712 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\httpclient-4.2.5.jar. C:\Xilinx\.xinstall\xic\lib\classes\httpclient-4.2.5.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,713 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\httpcore-4.2.4.jar. C:\Xilinx\.xinstall\xic\lib\classes\httpcore-4.2.4.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,713 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\json-simple-1.1.1.jar. C:\Xilinx\.xinstall\xic\lib\classes\json-simple-1.1.1.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\log4j-1.2.15.jar. C:\Xilinx\.xinstall\xic\lib\classes\log4j-1.2.15.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\xinstaller.jar. C:\Xilinx\.xinstall\xic\lib\classes\xinstaller.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,714 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes\zip4j_1.3.2.jar. C:\Xilinx\.xinstall\xic\lib\classes\zip4j_1.3.2.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,715 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\classes. C:\Xilinx\.xinstall\xic\lib\classes
+2023-07-07 17:05:14,715 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_filesystem.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_filesystem.dll
+2023-07-07 17:05:14,716 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_regex.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_regex.dll
+2023-07-07 17:05:14,716 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_system.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libboost_system.dll
+2023-07-07 17:05:14,717 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_7z.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_7z.dll
+2023-07-07 17:05:14,717 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_Client7z.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\libInst_Client7z.dll
+2023-07-07 17:05:14,717 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o\librdi_install.dll. C:\Xilinx\.xinstall\xic\lib\win64.o\librdi_install.dll
+2023-07-07 17:05:14,718 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib\win64.o. C:\Xilinx\.xinstall\xic\lib\win64.o
+2023-07-07 17:05:14,718 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\lib. C:\Xilinx\.xinstall\xic\lib
+2023-07-07 17:05:14,719 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\awt.dll
+2023-07-07 17:05:14,719 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\dcpr.dll
+2023-07-07 17:05:14,720 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\fontmanager.dll
+2023-07-07 17:05:14,720 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.dll
+2023-07-07 17:05:14,721 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\java.exe
+2023-07-07 17:05:14,721 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\jpeg.dll
+2023-07-07 17:05:14,722 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\management.dll
+2023-07-07 17:05:14,722 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\msvcr100.dll
+2023-07-07 17:05:14,722 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\net.dll
+2023-07-07 17:05:14,723 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\nio.dll
+2023-07-07 17:05:14,723 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server\jvm.dll
+2023-07-07 17:05:14,723 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\server
+2023-07-07 17:05:14,724 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\splashscreen.dll
+2023-07-07 17:05:14,724 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\t2k.dll
+2023-07-07 17:05:14,725 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\verify.dll
+2023-07-07 17:05:14,726 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin\zip.dll
+2023-07-07 17:05:14,726 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\bin. C:\Xilinx\.xinstall\xic\tps\win64\jre\bin
+2023-07-07 17:05:14,727 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\charsets.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,727 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\cldrdata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,727 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\dnsns.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,727 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\localedata.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,729 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunjce_provider.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,729 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunmscapi.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,730 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext\sunpkcs11.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,731 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\ext
+2023-07-07 17:05:14,731 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jce.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,732 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\jsse.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,733 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\resources.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,733 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib\rt.jar: O arquivo já está sendo usado por outro processo.
+
+2023-07-07 17:05:14,734 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre\lib. C:\Xilinx\.xinstall\xic\tps\win64\jre\lib
+2023-07-07 17:05:14,734 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64\jre. C:\Xilinx\.xinstall\xic\tps\win64\jre
+2023-07-07 17:05:14,735 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps\win64. C:\Xilinx\.xinstall\xic\tps\win64
+2023-07-07 17:05:14,735 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic\tps. C:\Xilinx\.xinstall\xic\tps
+2023-07-07 17:05:14,737 DEBUG: o.q:? - Could not delete C:\Xilinx\.xinstall\xic. C:\Xilinx\.xinstall\xic
+2023-07-07 17:05:14,737 DEBUG: o.k:? - Not all files are removed, need manually remove them.
+2023-07-07 17:05:14,738 DEBUG: o.j:? - Found C:\Xilinx\.xinstall\DocNav. Not deleting C:\Xilinx\.xinstall
+2023-07-07 17:05:14,740 DEBUG: com.xilinx.installer.utils.FileUtilities:? - Cleanup cmd: C:\Xilinx\.xinstall\xic\bin\\..\bin\_xInstallerCleanup.exe C:\Users\arthur\AppData\Local\Temp\.xinstall_remove_file.bat

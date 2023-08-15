@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zlk9m+ABOutyDKyLoqb2LNNMUsTkLuSfkwq3/XvF1FDXWTHgFCx0DHHWlDn/gFKnjgdifae4eC5ThyVK6/K0rw==",
+  "dgSpecHash": "YRn16kLfjA7IgOA/Oll+TyhtpRVgPDgMAQ50YQI+m/53bej7/nLC+XxYZxYfu5xFjXa1soZJFbtM4IfxcCCBPw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
+  "projectFilePath": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\arthur\\.nuget\\packages\\awssdk.core\\3.7.200.13\\awssdk.core.3.7.200.13.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\awssdk.sqs\\3.7.200.14\\awssdk.sqs.3.7.200.14.nupkg.sha512",
     "C:\\Users\\arthur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []

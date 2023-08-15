@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Amazon.Lambda.TestTool-6.0/0.13.0": {
+        "type": "package"
+      }
+    },
+    "net7.0/any": {
+      "Amazon.Lambda.TestTool-6.0/0.13.0": {
+        "type": "package",
+        "tools": {
+          "tools/net6.0/any/AWSSDK.Core.dll": {},
+          "tools/net6.0/any/AWSSDK.SQS.dll": {},
+          "tools/net6.0/any/Amazon.Lambda.Core.dll": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.deps.json": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.dll": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.pdb": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.runtimeconfig.json": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.xml": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.dll": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.pdb": {},
+          "tools/net6.0/any/Amazon.Lambda.TestTool.xml": {},
+          "tools/net6.0/any/Blazored.Modal.dll": {},
+          "tools/net6.0/any/DotnetToolSettings.xml": {},
+          "tools/net6.0/any/Microsoft.Extensions.DependencyModel.dll": {},
+          "tools/net6.0/any/Newtonsoft.Json.dll": {},
+          "tools/net6.0/any/YamlDotNet.dll": {},
+          "tools/net6.0/any/appsettings.Development.json": {},
+          "tools/net6.0/any/appsettings.json": {},
+          "tools/net6.0/any/wwwroot/css/blazored-modal.css": {},
+          "tools/net6.0/any/wwwroot/css/bootstrap/bootstrap.min.css": {},
+          "tools/net6.0/any/wwwroot/css/bootstrap/bootstrap.min.css.map": {},
+          "tools/net6.0/any/wwwroot/css/font-awesome.min.css": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/FONT-LICENSE": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/ICON-LICENSE": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/README.md": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.eot": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.otf": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.svg": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf": {},
+          "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.woff": {},
+          "tools/net6.0/any/wwwroot/css/site.css": {},
+          "tools/net6.0/any/wwwroot/favicon.ico": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.TestTool-6.0/0.13.0": {
+      "sha512": "0zrSi1jp80T/8sK8ub684J1+RxPiLKC1iHLLAPZrYE7Jwq1yTt7U6krW7q/fiZ2+pISObRFfi/xmnaBnwKAsvQ==",
+      "type": "package",
+      "path": "amazon.lambda.testtool-6.0/0.13.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.testtool-6.0.0.13.0.nupkg.sha512",
+        "amazon.lambda.testtool-6.0.nuspec",
+        "content/appsettings.Development.json",
+        "content/appsettings.json",
+        "content/wwwroot/css/blazored-modal.css",
+        "content/wwwroot/css/bootstrap/bootstrap.min.css",
+        "content/wwwroot/css/bootstrap/bootstrap.min.css.map",
+        "content/wwwroot/css/font-awesome.min.css",
+        "content/wwwroot/css/open-iconic/FONT-LICENSE",
+        "content/wwwroot/css/open-iconic/ICON-LICENSE",
+        "content/wwwroot/css/open-iconic/README.md",
+        "content/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "content/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+        "content/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+        "content/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+        "content/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+        "content/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+        "content/wwwroot/css/site.css",
+        "content/wwwroot/favicon.ico",
+        "contentFiles/any/net6.0/appsettings.Development.json",
+        "contentFiles/any/net6.0/appsettings.json",
+        "contentFiles/any/net6.0/wwwroot/css/blazored-modal.css",
+        "contentFiles/any/net6.0/wwwroot/css/bootstrap/bootstrap.min.css",
+        "contentFiles/any/net6.0/wwwroot/css/bootstrap/bootstrap.min.css.map",
+        "contentFiles/any/net6.0/wwwroot/css/font-awesome.min.css",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/FONT-LICENSE",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/ICON-LICENSE",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/README.md",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+        "contentFiles/any/net6.0/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+        "contentFiles/any/net6.0/wwwroot/css/site.css",
+        "contentFiles/any/net6.0/wwwroot/favicon.ico",
+        "tools/net6.0/any/AWSSDK.Core.dll",
+        "tools/net6.0/any/AWSSDK.SQS.dll",
+        "tools/net6.0/any/Amazon.Lambda.Core.dll",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.deps.json",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.dll",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.pdb",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.runtimeconfig.json",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.xml",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.dll",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.pdb",
+        "tools/net6.0/any/Amazon.Lambda.TestTool.xml",
+        "tools/net6.0/any/Blazored.Modal.dll",
+        "tools/net6.0/any/DotnetToolSettings.xml",
+        "tools/net6.0/any/Microsoft.Extensions.DependencyModel.dll",
+        "tools/net6.0/any/Newtonsoft.Json.dll",
+        "tools/net6.0/any/YamlDotNet.dll",
+        "tools/net6.0/any/appsettings.Development.json",
+        "tools/net6.0/any/appsettings.json",
+        "tools/net6.0/any/wwwroot/css/blazored-modal.css",
+        "tools/net6.0/any/wwwroot/css/bootstrap/bootstrap.min.css",
+        "tools/net6.0/any/wwwroot/css/bootstrap/bootstrap.min.css.map",
+        "tools/net6.0/any/wwwroot/css/font-awesome.min.css",
+        "tools/net6.0/any/wwwroot/css/open-iconic/FONT-LICENSE",
+        "tools/net6.0/any/wwwroot/css/open-iconic/ICON-LICENSE",
+        "tools/net6.0/any/wwwroot/css/open-iconic/README.md",
+        "tools/net6.0/any/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+        "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+        "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+        "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+        "tools/net6.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+        "tools/net6.0/any/wwwroot/css/site.css",
+        "tools/net6.0/any/wwwroot/favicon.ico"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "amazon.lambda.testtool-6.0 >= *"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arthur\\.dotnet\\tools\\.store\\.stage\\5unlygwp.45p": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\arthur\\AppData\\Local\\Temp\\9ad6f7f4-5a15-45fd-b7f7-11338bbf4440\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\arthur\\AppData\\Local\\Temp\\9ad6f7f4-5a15-45fd-b7f7-11338bbf4440\\restore.csproj",
+      "packagesPath": "C:\\Users\\arthur\\.dotnet\\tools\\.store\\.stage\\5unlygwp.45p",
+      "outputPath": "C:\\Users\\arthur\\.dotnet\\tools\\.store\\.stage\\5unlygwp.45p\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\arthur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "amazon.lambda.testtool-6.0": {
+            "target": "Package",
+            "version": "[*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}

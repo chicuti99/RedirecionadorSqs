@@ -32,3 +32,5 @@ C:\Users\arthur\source\repos\SQS com json\RedirecionamentoSqs\source\repos\Redir
 C:\Users\arthur\source\repos\SQS com json\RedirecionamentoSqs\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.csproj.CopyComplete
 C:\Users\arthur\source\repos\SQS com json\RedirecionamentoSqs\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\RedirecionadorSqs.genruntimeconfig.cache
 C:\Users\arthur\source\repos\SQS com json\RedirecionamentoSqs\source\repos\RedirecionadorSqs\RedirecionadorSqs\obj\Debug\net7.0\ref\RedirecionadorSqs.dll
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\arthur\source\repos\RedirecionadorSqs\RedirecionadorSqs\bin\Debug\net7.0\AWSSDK.SQS.dll

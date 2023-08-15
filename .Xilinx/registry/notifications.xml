@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<notificationRegistries>
+    <notification buildVersion="2023.1_0507_1903" date="2023-05-16T05:40:29.063-03:00" name="Vivado ML and Vitis 2023.1 Available for Download " notificationID="464" type="NEW_SW_NOTIFICATION_E" version="2023.1">
+        <appliesToEdition>SDx_Edition_OP_Tencent</appliesToEdition>
+        <appliesToEdition>VivadoDesignEdition_Web</appliesToEdition>
+        <appliesToEdition>SDx_Edition_OP_Amazon_Ingest</appliesToEdition>
+        <appliesToEdition>Scout_Edition_Web</appliesToEdition>
+        <appliesToEdition>Vivado_Lab</appliesToEdition>
+        <appliesToEdition>PetaLinux_Pkg_arm_microblaze</appliesToEdition>
+        <appliesToEdition>DocNav_PCKG</appliesToEdition>
+        <appliesToEdition>PetaLinux_Pkg_arm</appliesToEdition>
+        <appliesToEdition>Scout_Edition</appliesToEdition>
+        <appliesToEdition>PetaLinux_Pkg_aarch64_arm</appliesToEdition>
+        <appliesToEdition>SDx_Edition_OP_Amazon</appliesToEdition>
+        <appliesToEdition>SDx_Edition_OP_MSAzure</appliesToEdition>
+        <appliesToEdition>PetaLinux_Pkg</appliesToEdition>
+        <appliesToEdition>DocNav_PCKG</appliesToEdition>
+        <appliesToEdition>PetaLinux_Pkg_aarch64</appliesToEdition>
+        <appliesToEdition>PetaLinux_Pkg_aarch64_microblaze</appliesToEdition>
+        <appliesToEdition>HW_Server_Edition</appliesToEdition>
+        <appliesToEdition>WebPACKEdition_Web</appliesToEdition>
+        <appliesToEdition>XPP_Edition</appliesToEdition>
+        <appliesToEdition>PetaLinux_Pkg_microblaze</appliesToEdition>
+        <appliesToEdition>XiC_PCKG</appliesToEdition>
+        <appliesToEdition>SDK_BootGen_Edition</appliesToEdition>
+        <appliesToEdition>SDx_Edition_OP_Alibaba</appliesToEdition>
+        <appliesToVersion>2023.1</appliesToVersion>
+        <desc>
+      
+&lt;html&gt;
+  &lt;div style="width: 340px; text-justification: auto;"&gt;
+    Download Vivado ML and Vitis 2023.1 now, with support for 
+    &lt;ul&gt;
+      &lt;li&gt;Vivado ML Edition:&lt;/li&gt;  
+      &lt;ul&gt;
+        &lt;li&gt;Average QoR improvement of 8% for Versal™ Adaptive SoCs and 13% for UltraScale+ FPGAs using Intelligent Design Runs.&lt;/li&gt;
+        &lt;li&gt;Extending multithreading support for bitstream generation for Versal devices.&lt;/li&gt; 
+        &lt;li&gt;Enhancements in Report QoR Assessment(RQA).&lt;/li&gt;
+        &lt;li&gt;Power Design Manager(PDM) now a part of Unified Installer - Seperate from Vivado tool.&lt;/li&gt; 
+        &lt;li&gt;Added support for Versal HBM devices in PDM.&lt;/li&gt;       
+      &lt;/ul&gt;
+      &lt;li&gt;Vitis Unified Software Platform:&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Enhancements for Vitis library functions targeting Versal AIE designs.&lt;/li&gt;
+        &lt;li&gt;New features added to assist with Versal™ AIE designs:&lt;/li&gt;        
+        &lt;ul&gt;
+          &lt;li&gt;AIE compiler enhancements.&lt;/li&gt;
+          &lt;li&gt;AIE simulator enhancements.&lt;/li&gt;
+          &lt;li&gt;AIE reset/reload methodology.&lt;/li&gt;  
+        &lt;/ul&gt;   
+        &lt;li&gt;Support for Vitis™ environment export to the Vivado™ environment.&lt;/li&gt;
+        &lt;li&gt;Vitis tool features for profile, debug &amp; trace – primarily for the Versal AIE device family.&lt;/li&gt;
+        &lt;li&gt;Other features – Vitis analyzer GUI update &amp; Vitis platforms.&lt;/li&gt;              
+      &lt;/ul&gt;    
+      &lt;li&gt;Embedded Software:&lt;/li&gt;
+      &lt;ul&gt;
+	      &lt;li&gt;Updated Software Stack Components &amp; versions.&lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Linux kernel v6.1 , U-Boot mainline v2023.01 , PetaLinux updated to new yocto version v4.1 (Langdale) , TF-A  v2.8 , Xen Hypervisor v4.17, Yocto Project v4.1 (Langdale) , OpenAMP v1.3.1, Gstreamer v1.20.5 , V4L2 &amp; DRM framework v6.1 , QEMU v7.1.0, FreeRTOS v10.5.1.&lt;/li&gt;
+        &lt;/ul&gt;
+	      &lt;li&gt;Device Tree Generator (DTG).&lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Enabled sugar syntax for overlays &amp; Custom DTSI flow for DFX/CSOC.&lt;/li&gt;            
+        &lt;/ul&gt;
+	      &lt;li&gt;AI Engine support.&lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Enabled AI Engine support for VEK280 &amp; V70 Devices along with sysfs debugging features in Linux for all devices.&lt;/li&gt;            
+        &lt;/ul&gt;
+	      &lt;li&gt;VCU features.&lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Enabled support for Decoding Intra Only Frames.&lt;/li&gt;            
+        &lt;/ul&gt;       
+      &lt;/ul&gt;         
+    &lt;/ul&gt;  
+  &lt;/div&gt;
+&lt;/html&gt;
+
+    </desc>
+        <dismissed>false</dismissed>
+        <infoUrl>http://www.xilinx.com/products</infoUrl>
+        <fileToDownlaod numberOfFiles="0" refKey="Xilinx_Unified_2023.1_0507_1903_Lin64" size="284181282" unCompressedSize="0">
+            <md5Checksum>e47ad71388b27a6e2339ee82c3c8765f</md5Checksum>
+            <platform>LIN64</platform>
+            <symLink>false</symLink>
+        </fileToDownlaod>
+        <fileToDownlaod numberOfFiles="0" refKey="Xilinx_Unified_2023.1_0507_1903_Win64" size="219784755" unCompressedSize="0">
+            <md5Checksum>754891019869ab530ea1e011c06d2311</md5Checksum>
+            <platform>WIN64</platform>
+            <symLink>false</symLink>
+        </fileToDownlaod>
+        <read>false</read>
+    </notification>
+    <notification date="2018-02-08T14:19:13.467-02:00" name="Vivado/SDx 2017.4.1 is now available" notificationID="420" type="UPDATE_NOTIFICATION_E" version="2017.4.1">
+        <appliesToBuildVersion>2017.4_1216_1</appliesToBuildVersion>
+        <appliesToEdition>SDx_Merged_Edition</appliesToEdition>
+        <appliesToEdition>WebPACKEdition</appliesToEdition>
+        <appliesToEdition>WebPACKEdition_Web</appliesToEdition>
+        <appliesToEdition>SDx_SDSoC_Merged_Edition</appliesToEdition>
+        <appliesToEdition>VivadoDesignEdition</appliesToEdition>
+        <appliesToEdition>SDx_Merged_Edition_Web</appliesToEdition>
+        <appliesToEdition>VivadoDesignEdition_Web</appliesToEdition>
+        <appliesToEdition>VivadoSystemEdition_Web</appliesToEdition>
+        <appliesToEdition>VivadoSystemEdition</appliesToEdition>
+        <appliesToEdition>SDx_SDAccel_Merged_Edition</appliesToEdition>
+        <appliesToVersion>2017.4</appliesToVersion>
+        <desc>
+      &lt;html&gt;&lt;div style="width: 340px; text-justification: auto;"&gt;Download Vivado/SDx Design Suite 2017.4.1 now, with support for&lt;br/&gt;
+      &lt;ul&gt;&lt;li&gt;Production Devices&lt;/li&gt;
+      &lt;ul&gt;&lt;li&gt;Zynq UltraScale+ MPSoC (-1L/-2L) Devices&lt;/li&gt;      
+      &lt;ul&gt;&lt;li&gt;ZU4CG/EG/EV, ZU5CG/EG/EV, ZU7CG/EG/EV, ZU11EG&lt;/li&gt;&lt;/ul&gt;
+      &lt;li&gt;Kintex UltraScale+ FPGA (-1L/-2L) Devices: - KU11P&lt;/li&gt;
+      &lt;li&gt;Virtex UltraScale+ FPGA (-3) Devices:&lt;/li&gt;
+      &lt;ul&gt;&lt;li&gt;VU11P, VU13P&lt;/li&gt;&lt;/ul&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;Devices enabled in WebPack:&lt;/li&gt;  
+      &lt;ul&gt;&lt;li&gt;XC7A25T, XC7A12T, XC7S25, XCZU4 EG/CG/EV, XCZU5 EG/CG/EV, XCZU7 EG/CG/EV&lt;/li&gt;&lt;/ul&gt;
+      &lt;/ul&gt;
+      For customers using these devices, Xilinx recommends installing Vivado 2017.4.1.  For other devices, please continue to use Vivado 2017.4.
+      &lt;/div&gt;&lt;/html&gt;
+    </desc>
+        <dismissed>false</dismissed>
+        <fileToDownlaod numberOfFiles="0" refKey="xinstaller_Xilinx_Vivado_SDx_Update_2017.4.1_0131_1" size="20998701" unCompressedSize="0">
+            <md5Checksum>502025c1b2e4e1dc863909b0bc480ba7</md5Checksum>
+            <platform>WIN64</platform>
+            <platform>WIN32</platform>
+            <platform>LIN32</platform>
+            <platform>LIN64</platform>
+            <symLink>false</symLink>
+        </fileToDownlaod>
+        <read>false</read>
+    </notification>
+</notificationRegistries>

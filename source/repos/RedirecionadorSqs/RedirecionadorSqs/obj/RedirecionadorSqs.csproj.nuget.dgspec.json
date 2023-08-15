@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj": {}
+    "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj": {}
   },
   "projects": {
-    "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj": {
+    "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
+        "projectUniqueName": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
         "projectName": "RedirecionadorSqs",
-        "projectPath": "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
+        "projectPath": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\RedirecionadorSqs.csproj",
         "packagesPath": "C:\\Users\\arthur\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\arthur\\source\\repos\\SQS com json\\RedirecionamentoSqs\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\obj\\",
+        "outputPath": "C:\\Users\\arthur\\source\\repos\\RedirecionadorSqs\\RedirecionadorSqs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arthur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.200.14, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

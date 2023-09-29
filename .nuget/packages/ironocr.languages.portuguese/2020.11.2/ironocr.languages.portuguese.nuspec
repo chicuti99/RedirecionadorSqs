@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IronOcr.Languages.Portuguese</id>
+    <version>2020.11.2</version>
+    <title>Portuguese (also known as Português) Language pack for the IronOCR .NET OCR Library.</title>
+    <authors>https://ironsoftware.com/csharp/ocr/</authors>
+    <owners>https://ironsoftware.com</owners>
+    <licenseUrl>https://ironsoftware.com/csharp/ocr/licensing/#eula-modal</licenseUrl>
+    <projectUrl>https://ironsoftware.com/csharp/ocr/languages/</projectUrl>
+    <iconUrl>https://ironsoftware.com/brand/iron-logo-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The IronOCR engine adds OCR (Optical Character Recognition) functionality to Web, Desktop, and Console applications. IronOCR reads Barcode and QR codes.
+
+Ocr Dictionaries in this package:
+* Portuguese
+* PortugueseBest
+* PortugueseFast
+
+====================================
+OCR em português em C# e .NET. OCR C# Tesseract 5 otimizado em uma API .NET OCR independente. Converte documentos do scanner, imagens e PDF em texto. Exemplos C# e VB: https://ironsoftware.com/csharp/ocr/languages/
+====================================
+
+This package installs IronOCR and also Portuguese support including:
+* Portuguese (also known as Português) OCR for screenshots, cameras, images files, tiffs and PDFs in .NET
+* Custom OCR that can significantly out-perform Tesseract CLI on real world documents
+* Can read scans with distortion, skewing, low resolution &amp; contrast, and digital noise
+* Also supports Tesseract 3, 4 and 5 in Portuguese
+* Support for 125 total international languages available
+
+Additional Features Include:
+* Barcode &amp; QR Reading
+* Output of searchable, search-engine indexable PDF documents
+* Inspect fonts, headings, paragraphs, lines, words, and characters as structured data
+
+Supports:
+* .NET Framework (4.5+)
+* .NET Core (2.0+)
+* .NET Standard (2.0+)
+
+Works on:
+* Windows
+* MacOS
+* Linux
+* Docker
+* Azure and other Cloud hosting platforms
+* Web, Console, WinForms, WPF and Services
+
+Reads:
+- Images
+- TIFFS
+- PDFs
+- Screenshots
+- Scans
+- Barcodes
+- QR codes
+
+Commercial support available. Email: developers@ironsoftware.com
+
+C# &amp; VB Examples: https://ironsoftware.com/csharp/ocr/languages/</description>
+    <summary>Provides fast &amp; accurate OCR in Portuguese for C# and VB.Net applications. The IronOCR engine adds OCR (Optical Character Recognition) functionality to Web, Desktop, and Console applications. Also reads Barcodes and QR codes.</summary>
+    <releaseNotes>Full support for the IronOCR version 2020.11.2 (Nov 2020).
+* Best-in-class .NET OCR algorithms
+* Additional support for Tesseract 3, 4 and 5 OCR Engines
+* Custom OCR language dictionary support</releaseNotes>
+    <copyright>Copyright 2016-2020 https://ironsoftware.com</copyright>
+    <language>en-US</language>
+    <tags>IronOcr, Iron, OCR, Portuguese, , Português, PDF, Text, Image, PDF OCR</tags>
+    <dependencies>
+      <group targetFramework=".NETCore2.0">
+        <dependency id="IronOcr" version="2020.11.2" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="IronOcr" version="2020.11.2" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="IronOcr" version="2020.11.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -27,7 +27,7 @@ namespace Login
 
             } while (!Continue);
 
-            Console.WriteLine($"Selecione a opção desejada \n1 para ver a lista de impressoras e seus pedidos\n2 para SQS\n3 a qualquer momento para encerrar");
+            Console.WriteLine($"Selecione a opção desejada \n1 para ver a lista de impressoras e seus pedidos\n2 para SQS\n3 para excluir pedidos da fila\n4 a qualquer momento para encerrar");
             var opcao = Console.ReadLine();
             switch(opcao)
             {
@@ -35,12 +35,28 @@ namespace Login
                     tela.GetPrinters();
                     break;
                 case "2":
-                    garcom.SendMessageSqs(21);
+                    do
+                    {
+                        Task.Run(() => tela.GetControle() );
+                        foreach (var printer in garcom.GetAvaliablePrinters())
+                        {
+                            garcom.SendMessageSqs(printer.id);
+                        }
+                    } while (tela.controle);
                     break;
+                case "3":
+                    foreach(var impressora in garcom.GetAvaliablePrinters())
+                    {
+                        garcom.RemoveFromQueue(impressora.id);
+                    }
+                    break;
+
             }
             
 
         }
+
+
 
         public void GetPrinters()
         {
@@ -66,11 +82,12 @@ namespace Login
             while(controle)
             {
                 var key = Console.ReadKey(intercept: true);
-                if(key.KeyChar == '3')
+                if(key.KeyChar == '4')
                 {
                     controle = false;
                 }
             }
         }
+
     }
 }

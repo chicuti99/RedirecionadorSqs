@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>IronSoftware.Native.PdfModel</id>
+    <version>2023.8.17287</version>
+    <title>IronSoftware.Native.PdfModel</title>
+    <authors>Iron Software</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>images/iron-logo-128.png</icon>
+    <projectUrl>https://ironpdf.com/</projectUrl>
+    <description>External methods which allow for interoperability between native and managed code</description>
+    <summary>This package contains platform-specific native dependancies for use with the IronSoftware C# Library. https://ironpdf.com</summary>
+    <releaseNotes>Latest version of PdfModel methods for IronSoftware products.</releaseNotes>
+    <copyright>Copyright https://ironpdf.com 2017-2023</copyright>
+    <language>en-US</language>
+    <tags>IronPdf, IronOcr, IronBarCode, BarCode, Linux, OSX, ARM, PDF, IRON, Iron Software</tags>
+  </metadata>
+</package>

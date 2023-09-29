@@ -20,6 +20,7 @@ namespace RedirecionadorSqs.Model
 
         public static string TOKEN;
         public static List<Printer> printers;
+        public Auth usuario;
         public bool Login (string username, string password)
         {
             using (HttpClient client = new HttpClient())
@@ -32,7 +33,7 @@ namespace RedirecionadorSqs.Model
                     {
                         if (response.IsSuccessStatusCode)
                         {
-                            Auth usuario = Utils.ParseHttpContent<Auth>(content);
+                            usuario = Utils.ParseHttpContent<Auth>(content);
                             TOKEN = usuario.token;
                             return true;
                         }
@@ -93,7 +94,12 @@ namespace RedirecionadorSqs.Model
                         using (var content = response.Content)
                         {
                             var printItens = Utils.ParseHttpContent<List<PrintItem>>(content);
-                            if (printItens.Count > 0) return $"Tem pedidos {printItens.Count.ToString()} na fila da impressora {impressora}({idImpressora.ToString()})";
+                            if (printItens.Count > 0)
+                            {
+                                if (!File.Exists("json.txt")) File.WriteAllText("json.txt", content.ReadAsStringAsync().Result);
+                                else File.AppendAllText("json.txt", content.ReadAsStringAsync().Result);
+                                return $"Tem pedidos {printItens.Count.ToString()} na fila da impressora {impressora}({idImpressora.ToString()})";
+                            }
                             else return $"Não tem pedidos na fila da impressora {impressora}({idImpressora.ToString()})";
                         }
                     }
@@ -126,26 +132,42 @@ namespace RedirecionadorSqs.Model
                             if (verificador.Count > 0)
                             {
                                 var conteudo = await response.Content.ReadAsStringAsync();
-                                var cliente = new AmazonSQSClient("yourAccessKey", "yourSecretKey", RegionEndpoint.SAEast1);
-                                var request = new SendMessageRequest
+                                var cliente = new AmazonSQSClient("AKIAT2Y2IFGXOO2XHZEV", "eWdAVEPOp8kCUe6+pS0g2Pzqg4sfR/jmwaOpD4Yd", RegionEndpoint.SAEast1);
+                                    var request = new SendMessageRequest
+                                    {
+                                        QueueUrl = "https://sqs.sa-east-1.amazonaws.com/263658678702/MinhaFila",
+                                        MessageBody = conteudo,
+                                        MessageAttributes = new Dictionary<string, MessageAttributeValue>
                                 {
-                                    QueueUrl = "https://sqs.sa-east-1.amazonaws.com/498841808775/foodies.fifo",
-                                    MessageBody = conteudo,
-                                    MessageGroupId = "foodies",
-                                    MessageDeduplicationId = Guid.NewGuid().ToString()
+                                    {
+                                        "Restaurante", new MessageAttributeValue {DataType = "String", StringValue = usuario.user.name.ToLower() }
+                                    }
+                                }
                                 };
+                                Console.WriteLine($"{verificador.Count} iten enviados");
                                 await cliente.SendMessageAsync(request);
-                            }
+                                foreach (var item in verificador) RemoveFromQueue(item.id);
+                             }
+                            else Console.WriteLine("Nenhuma mensagem enviada");
 
-                        } 
+                            } 
                     }while(tela.controle);
                 }
             }
     }  
 }
 
+        public void RemoveFromQueue(int printId)
+        {
+            using (var client = new HttpClient())
+            {
+                InitClient(client);
+                var response = client.PutAsync($"/restaurants/printers/printer-queue/{printId}/done", null).Result;
+            }
+        }
 
-}
+
+    }
 }
 
 

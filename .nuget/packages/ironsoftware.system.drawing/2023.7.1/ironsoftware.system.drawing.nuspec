@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>IronSoftware.System.Drawing</id>
+    <version>2023.7.1</version>
+    <title>IronSoftware.System.Drawing</title>
+    <authors>https://ironsoftware.com/</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>images/ironsoftware-logo.png</icon>
+    <readme>docs\README.md</readme>
+    <projectUrl>https://github.com/iron-software/IronSoftware.Drawing.Common/</projectUrl>
+    <description>IronSoftware.System.Drawing - The C# Image Library
+
+A universally compatible Bitmap format for .NET 8, .NET 7, .NET 6, and .NET 5, .NET Core on Windows, macOS, Linux, Docker, AWS, Azure, NanoServer, IIS, Mobile, Xamarin, iOS, Android, and Google Compute.
+
+Works seamlessly with popular Image and Bitmap formats such as System.Drawing.Bitmap, SkiaSharp, SixLabors.ImageSharp, Microsoft.Maui.Graphics.
+
+Implicit casting means that using this class to input and output Bitmap and image types from public API's gives full compatibility to all image type fully supported by Microsoft.
+
+Key library features include:
+* AnyBitmap: A universally compatible Bitmap class. Implicit casting between System.Drawing.Bitmap, System.Drawing.Image, SkiaSharp.SKBitmap, SkiaSharp.SKImage, SixLabors.ImageSharp, Microsoft.Maui.Graphics.Platform.PlatformImage to IronSoftware.Drawing.AnyBitmap
+* Color: A universally compatible Color class. Implicit casting between System.Drawing.Color, SkiaSharp.SKColor, SixLabors.ImageSharp.Color, SixLabors.ImageSharp.PixelFormats to IronSoftware.Drawing.Color
+* CropRectangle: A universally compatible Rectangle class. Implicit casting between System.Drawing.Rectangle, SkiaSharp.SKRect, SkiaSharp.SKRectI, SixLabors.ImageSharp.Rectangle to IronSoftware.Drawing.CropRectangle
+* Font: A universally compatible Font class. Implicit casting between System.Drawing.Font, SkiaSharp.SKFont, SixLabors.Fonts.Font to IronSoftware.Drawing.Font
+
+IronSoftware.Drawing can be used within C#, VB.NET, F#, ASP.NET projects, MVC, Web Services, Console &amp; Desktop Applications.
+
+Supports:
+* .NET 7
+* .NET 6
+* .NET 5
+* .NET Core 2.0 +
+* .NET Framework 4.6.2 +
+
+For general support and technical inquiries, please email us at: developers@ironsoftware.com</description>
+    <summary>IronSoftware.System.Drawing is an open-source solution for .NET developers to replace System.Drawing.Common with a universal and flexible library.</summary>
+    <releaseNotes>- Added Point and PointF classes
+- Added a SetPixel method to AnyBitmap to set a pixel's color</releaseNotes>
+    <copyright>Copyright © Iron Software 2022-2023</copyright>
+    <tags>Images, Bitmap, SkiaSharp, SixLabors, BitMiracle, Maui, SVG, TIFF, TIF, GIF, JPEG, PNG, Color, Rectangle, Drawing, C#, VB.NET, ASPX, create, render, generate, standard, netstandard2.0, core, netcore</tags>
+    <repository type="git" url="https://github.com/iron-software/IronSoftware.Drawing.Common" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="SixLabors.ImageSharp" version="2.1.3" />
+        <dependency id="BitMiracle.LibTiff.NET" version="2.4.649" />
+        <dependency id="System.Memory" version="4.5.5" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="SixLabors.ImageSharp" version="3.0.0" />
+        <dependency id="BitMiracle.LibTiff.NET" version="2.4.649" />
+        <dependency id="System.Memory" version="4.5.5" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="SixLabors.ImageSharp" version="2.1.3" />
+        <dependency id="BitMiracle.LibTiff.NET" version="2.4.649" />
+        <dependency id="System.Memory" version="4.5.5" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

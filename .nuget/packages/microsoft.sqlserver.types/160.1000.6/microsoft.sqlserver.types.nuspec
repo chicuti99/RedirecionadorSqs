@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.SqlServer.Types</id>
+    <version>160.1000.6</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">license.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>The package contains the components implementing the geometry, geography, and hierarchy ID types in SQL Server.</description>
+    <copyright>Copyright (c) Microsoft Corporation.</copyright>
+    <tags>SQL spatial geometry geography SqlGeometry SqlGeography HierarchyId GIS geospatial OGC sql-server</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.SqlServer.Server" version="1.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
